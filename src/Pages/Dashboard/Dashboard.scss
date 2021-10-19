@@ -1,0 +1,493 @@
+.dashboard {
+    &-container {
+      display: grid;
+      background-color: #f2f2f2;
+      gap: 2rem;
+      border-radius: 4rem;
+      height  : 250rem;
+      padding: 1rem;
+      gap: 2rem;
+      border-radius: 2rem;
+      padding: 1rem;
+      zoom: 70%;
+}
+}
+.Leave_session{
+    overflow-y: hidden;
+    margin-bottom: 3rem;
+    h1{
+        position: absolute;
+width: 338px;
+height: 30px;
+left : 400px;
+top: 189px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+    }
+}
+.box{
+    .dashCard::-webkit-scrollbar { display:none !important }
+}
+.dashCard{
+    position: absolute;
+width: 428px;
+height: 625px;
+left: 400px;
+top: 299px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+img{
+    border-radius: 10px;
+    width : 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+&-dashCard::-webkit-scrollbar {
+    display: none;
+}
+}
+.User_detail{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 27px;
+margin-left: 20px;
+color: #000000;
+margin-top: 10px;
+}
+.User_base{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 19px;
+margin-left: 20px;
+color: #2186F2;
+margin-top: 15px;
+}
+.User_address{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+
+margin-left: 20px;
+margin-top: 20px;
+padding-bottom: 10px;
+}
+.Leave_today{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 26px;
+color: #EE3030;
+margin-left: 20px;
+margin-top: 20px;
+cursor: pointer;
+}
+.View_Point{
+    position: absolute;
+margin-left: 320px;
+background: #2186F2;
+border-radius: 20px;
+padding: 10px 20px;
+text-align: center;
+margin-top: -30px;
+cursor: pointer;
+color : white;
+
+}
+.dashCard1{
+    position: absolute;
+width: 428px;
+height: 625px;
+left: 900px;
+top: 299px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+img{
+    border-radius: 10px;
+    width : 100%;
+}
+}
+.dashCard2{
+    position: absolute;
+width: 428px;
+height: 625px;
+left: 1405px;
+top: 299px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+
+  img{
+    border-radius: 10px;
+    width : 100%;
+  }
+
+}
+.dashCard3{
+    position: absolute;
+width: 428px;
+height: 625px;
+left: 1900px;
+top: 299px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+
+  img{
+    border-radius: 10px;
+    width : 100%;
+  }
+
+}
+.Job_Posting{
+  h1{
+    position: absolute;
+    width: 338px;
+    height: 30px;
+    left : 400px;
+    top: 1029px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+  }
+}
+.Job_dash{
+    position: absolute;
+    width: 628px;
+    height: 325px;
+    left: 400px;
+    top: 1129px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    img{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        margin-left: 540px;
+        margin-top: -80px;
+        border-radius:10px ;
+      
+}
+}
+    .Job_dash-olivia{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height */
+        margin-left: 20px;
+        margin-top: 25px;
+        
+        color: #000000;
+        
+    }
+    .Job_dash-external{
+        font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 21px;
+/* identical to box height */
+margin-left: 20px;
+margin-top: 10px;
+
+
+color: #765AEA;
+    }
+    .Job_dash-address{
+        font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 21px;
+margin-top: 10px;
+color: #787878;
+margin-left: 20px;
+    }
+
+.Job_dash-data{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    color: #000000;    
+}
+.Job_dash-prize{
+        font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+margin-left: 20px;
+margin-top: 10px;
+
+color: #2186F2;
+    }
+.Job_dash-discription{
+        font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 29px;
+margin-left: 20px;
+margin-top: 20px;
+color: rgba(12, 12, 12, 0.7);
+
+    }
+
+    .Job_dash1{
+        position: absolute;
+        width: 628px;
+        height: 325px;
+        left: 1050px;
+        top: 1129px;
+        background: #FFFFFF;
+        box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        img{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            margin-left: 540px;
+            margin-top: -80px;
+            border-radius:10px ;
+          
+    }
+    }
+
+    .Job_dash2{
+        position: absolute;
+        width: 628px;
+        height: 325px;
+        left: 1700px;
+        top: 1129px;
+        background: #FFFFFF;
+        box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        img{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            margin-left: 540px;
+            margin-top: -80px;
+            border-radius:10px ;
+          
+    }
+    }
+    .dash_pending h1{
+        position: absolute;
+        width : 1000px;
+        height: 30px;
+        margin-top: 550px;
+        margin-left: 20px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 30px;
+       
+        color: #000000;
+    }
+
+ .samarth_head{
+    position: absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #000000;
+    
+ }
+
+ .pending_dash{
+    position: absolute;
+    width: 620px;
+    height: 233px;
+    margin-left: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 1700px;
+    img{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin-left: 500px;
+        margin-top: 20px;
+        
+}
+ }
+ .Leave_address{
+    position: absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    margin-left: 20px;
+    margin-top: 80px;
+    color: #1BD084;
+    }
+    .date_address{
+        position: absolute;
+        font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 21px;
+/* identical to box height */
+margin-top: 120px;
+margin-left: 20px;
+text-align: right;
+
+color: #787878;
+    }
+
+    .Family_member{
+        font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 21px;
+margin-top: 170px;
+margin-left: 20px;
+
+color: rgba(12, 12, 12, 0.7);
+    }
+.Leave_view{
+    position: absolute;
+width : 100px;
+height: 40px;
+text-align: center;
+color: white;
+margin-top: -50px;
+padding-top: 4px;
+top: 91%;
+font-size: 20px;
+bottom: 7.56%;
+margin-left:490px;
+background: #2186F2;
+border-radius: 20px;
+cursor: pointer;
+}
+.pending_dash1{
+    position: absolute;
+    width: 620px;
+    height: 233px;
+    margin-left: 1050px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 1700px;
+    img{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin-left: 500px;
+        margin-top: 20px;
+        
+}
+}
+.pending_dash2{
+    position: absolute;
+    width: 620px;
+    height: 233px;
+    margin-left: 1700px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 1700px;
+    img{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin-left: 500px;
+        margin-top: 20px;
+        
+}
+}
+.pending_view{
+    position: absolute;
+border: 1px solid #2186F2;
+box-sizing: border-box;
+border-radius: 14px;
+margin-top: 1570px;
+margin-left: 2150px;
+font-size: 25px;
+width : 150px;
+height : 50px;
+text-align: center;
+padding-top: 5px;
+cursor: pointer;
+color : #2186F2;
+}
+.Job_more{
+    position: absolute;
+    border: 1px solid #2186F2;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin-top: 1170px;
+    margin-left: 1150px;
+    font-size: 25px;
+  
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    color : #2186F2;
+}
+.View_text{
+    position: absolute;
+    border: 1px solid #2186F2;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin-top: 570px;
+    margin-left: 1150px;
+    font-size: 25px;
+  
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    color : #2186F2;
+}

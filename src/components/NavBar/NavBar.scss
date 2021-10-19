@@ -1,0 +1,150 @@
+.navbar {
+     &-info {
+       font-weight: 600;
+       font-size: 2rem;
+       text-transform: capitalize;
+     }
+   
+     &-container {
+       width: calc(100% - 28rem);
+       z-index: 100;
+       position: fixed;
+       background-color: #f2f2f2;
+       border-top-left-radius: 2.5rem;
+       margin-left : 244px;
+     }
+   
+     &-inside {
+       display: grid;
+       grid-template-columns: 1fr 1.1fr 1fr;
+       align-items: center;
+       padding: 1.6rem 3.2rem;
+      
+       a{
+         text-decoration: none;
+         display: flex;
+         justify-content: flex-end;
+         cursor:initial
+          
+    
+       }
+     }
+   
+     &-search-box {
+       display: grid;
+       grid-template-columns: 1fr 3rem;
+       justify-content: center;
+       align-items: center;
+       background-color: var(--search-bar);
+       // max-width: 70%;
+       padding: 0.7rem 1.3rem;
+   
+       border-radius: 2rem;
+       
+       input {
+         width: 90%;
+       }
+   
+       svg {
+         height: 2rem;
+       }
+     }
+    
+   
+     &-user {
+       justify-self: end;
+       display: flex;
+       align-items: center;
+   
+       img {
+         margin-left: 2rem;
+         height: 5rem;
+         width: 5rem;
+         border-radius: 50%;
+         margin-right: 1rem;
+         cursor: pointer;
+       }
+     }
+   
+     &-search-icon {
+     }
+   }
+   
+   
+   
+   
+    
+
+   
+   .nav-batch-action {
+     &-rel {
+       position: relative;
+       left:-53rem;
+     }
+     .chatHead{
+       display: flex;
+       margin-top: 2rem;
+       p{
+         margin-top: 0.6rem;
+       }
+   }
+   
+     &-square {
+       width: 2rem;
+       height: 2rem;
+       position: absolute;
+       background-color: #fff;
+       top: -0.9rem;
+       left: 92%;
+       transform: translatex(-50%) rotate(45deg);
+     }
+   
+     position: absolute;
+     top: 3.8rem;
+     left: -1rem;
+     height: 0;
+     width: 56rem;
+   
+     opacity: 0;
+     visibility: hidden;
+     transition: height 0.3s, visibility 0.4s, opacity 0.4s;
+   
+     box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+     background-color: #fff;
+     padding: 1rem;
+     border-radius: 2rem;
+     list-style: none;
+     overflow: scroll;
+   
+     li {
+       margin: 1rem 0;
+       padding: 0.5rem;
+       display: flex;
+       align-items: center;
+       transition: all 0.3s;
+   
+       &:hover {
+         background-color: rgb(233, 233, 233);
+         border-radius: 2rem;
+       }
+   
+       img {
+         margin-right: 1rem;
+       }
+     }
+   }
+   
+  
+   .user {
+     flex-direction : column;
+     &-name {
+       font-weight: 600;
+     }
+     &-type {
+       font-size: 1.3rem;
+       color: rgb(151, 151, 151);
+     }
+   
+}
+   
+  

@@ -1,0 +1,39 @@
+.dashboard-container{
+    
+}
+
+.btn {
+    padding: 0.8rem 10.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 20px;
+     
+  }
+  
+
+  
+  .btn-active {
+    background-color: var(--primary);
+    color: #fff;
+    margin-right: 4rem;
+ 
+  }
+  
+  .btn-inactive {
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin-right: 2.5rem;
+  
+  }
+  .Top_btns{
+    position: absolute;
+    width: 164px;
+    height: 45px;
+    left:450px;
+    top: 143px;
+    display : flex;
+    background: #FAE389;
+    border-radius: 24px;
+    text-align: center;
+}

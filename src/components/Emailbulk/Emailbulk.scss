@@ -1,0 +1,389 @@
+.contain_email_box{
+    position: absolute;
+    width: 1304px;
+    height: 1150px;
+left : 850px;
+top: 150px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+border-radius: 20px;
+}
+.contain_email_box1{
+position: absolute;
+width: 1304px;
+
+height: 106px;
+left: 0px;
+top: 0px;
+
+background: #2186F2;
+border-radius: 14px 14px 0px 0px;
+
+
+}
+.contain_email_box1{
+    display : flex;
+}
+.contain_email_box1 h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 50px;
+   
+    
+}
+.contain_email_box1 img{
+    margin-left : 1000px;
+  margin-top: 20px;
+}
+.popup_container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.637);
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.Popup_email{
+position: absolute;
+width: 437px;
+height: 30px;
+margin-left: -40px;
+margin-top: 40px;
+top: 130px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #515151;
+
+}
+
+.popup_input_box{
+    position: absolute;
+    width: 348px;
+    height: 59px;
+    left: 50px;
+    top: 219px;
+    background: #FFFFFF;
+    border: 1px solid #E0D7D7;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 12px rgb(0 0 0 / 6%);
+    border-radius: 12px;
+   img{
+       margin-left : -90px;
+       margin-top : 10px;
+
+   }
+}
+.bulk_box{
+    position: absolute;
+width: 29px;
+height: 21px;
+margin-left : 30px;
+margin-top : 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.popup_cancel{
+    position: absolute;
+    width: 155px;
+    height: 52px;
+    left:262px;
+    top: 280px;
+    padding-top: 15px;
+    background: #c4c1c1;
+    border-radius: 50px;
+    cursor: pointer;
+    display : flex;
+  
+}
+.popup_Add{
+    position: absolute;
+width: 155px;
+height: 52px;
+left: 456px;
+top: 280px;
+padding-left : 30px;
+background: #2186F2;
+/* Shadow01 */
+cursor: pointer;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+border-radius: 50px;
+}
+
+.btn_popup_add{
+   margin-top: 17px;
+   margin-left:29px;
+}
+.popup_close{
+    margin-top: 10px;
+    background-color: black;
+    width : 30px;
+}
+.email_format_list{
+    position: absolute;
+width: 505px;
+height: 30px;
+left: 267px;
+top: 409px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+list-style: none;
+padding: 0;
+
+}
+.email_format_listitems{
+    vertical-align: text-bottom;
+    margin-left: 2.2rem;
+}
+.left-section{
+    input{
+        margin-right: 10px;
+        width : 30px;
+        height: 20px;
+    }
+}
+
+.To_contain{
+    position: absolute;
+width: 22px;
+height: 27px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 27px;
+/* identical to box height */
+margin-left: 50px;
+margin-top: 300px;
+color: #515151;
+}
+.popup_input_box1{
+    position: absolute;
+    width: 1148px;
+    height: 59px;
+    left: 50px;
+    top: 349px;
+    background: #FFFFFF;
+    border: 1px solid #E0D7D7;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 12px rgb(0 0 0 / 6%);
+    border-radius: 12px;
+   display : flex;
+}
+.close_contain{
+      margin-left : 305px;
+      margin-top : 20px;
+
+}
+.bulk_box1{
+    position: absolute;
+width: 29px;
+height: 21px;
+margin-left : 350px;
+margin-top : 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+color: #000000;
+}
+.close_contain1{
+      margin-left : 305px;
+      margin-top : 20px;
+
+}
+.bulk_box2{
+    position: absolute;
+width: 29px;
+height: 21px;
+margin-left : 670px;
+margin-top : 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+
+color: #000000;
+}
+.close_contain2{
+      margin-left : 305px;
+      margin-top : 20px;
+
+}
+.subject_contain{
+    position: absolute;
+width: 69px;
+height: 27px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 27px;
+margin-top: 440px;
+margin-left : 50px;
+color: #515151;
+
+}
+.popup_input_box2{
+    position: absolute;
+    width: 348px;
+    height: 59px;
+    left: 50px;
+    top: 500px;
+    background: #FFFFFF;
+    border: 1px solid #E0D7D7;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 12px rgb(0 0 0 / 6%);
+    border-radius: 12px;
+   
+}
+.happy_contain{
+    position: absolute;
+    width: 329px;
+    height: 21px;
+    margin-left : -30px;
+    margin-top : 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #000000;
+}
+.mail_contain{
+position: absolute;
+width: 216px;
+height: 27px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 27px;
+color: #515151;
+margin-top: 600px;
+margin-left: 30px;
+
+}
+.text_email{
+    position: absolute;
+width: 1183px;
+height: 331px;
+margin-top: 670px;
+margin-left : 50px;
+background: #FFFFFF;
+border: 1px solid #EBE9E9;
+box-sizing: border-box;
+border-radius: 6px;
+img {
+    padding-left: 0px;
+}
+}
+.text_line{
+    position: absolute;
+width: 1183px;
+height: 0px;
+margin-top : 740px;
+margin-left : 50px;
+border: 1px solid #EBE9E9;
+}
+.email_container{
+    margin-top : 50px;
+    margin-left : -1000px;
+    
+}
+.email_dash{
+    margin-left: -250px;
+    margin-top : 30px;
+}
+.email_dash1{
+    margin-top : 20px;
+    margin-left : -420px;
+}
+.email_dash_date{
+    color : red;
+    margin-left : 570px;
+    margin-top : -25px;
+}
+.new_template{
+    color : black;
+    font-size: 20px;
+    margin-top : 1050px;
+    margin-left : -900px;
+}
+.template_box{
+    position: absolute;
+width: 20px;
+height: 20px;
+margin-top : 1050px;
+margin-left : 40px;
+background:  #BEBEBE;
+}
+.btns_cancel{
+    position: absolute;
+    width: 155px;
+    height: 52px;
+    margin-left : 600px;
+    margin-top : -50px;
+    background: #BEBEBE;
+    border-radius: 50px;
+    padding-top : 10px;
+    color : white;
+}
+.btns_preview{
+    position: absolute;
+width: 155px;
+height: 52px;
+margin-left : 800px;
+margin-top : -50px;
+padding-top : 10px;
+background: #FFFFFF;
+border: 1px solid #2186F2;
+box-sizing: border-box;
+border-radius: 50px;
+}
+.btns_send{
+    position: absolute;
+width: 155px;
+height: 52px;
+background: #2186F2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+border-radius: 50px;
+margin-left : 1000px;
+margin-top : -50px;
+color : white;
+margin-bottom : -20px;
+padding-top : -10px;
+img{
+    margin-left : -30px;
+    margin-top: 5px;
+}
+}

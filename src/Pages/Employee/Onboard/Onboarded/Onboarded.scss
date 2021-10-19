@@ -1,0 +1,381 @@
+.onboard_head{
+
+position: absolute;
+width: 375px;
+height: 30px;
+left : 450px;
+top: 259px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+color: #000000;
+
+}
+.onboard_active{
+    position: absolute;
+width: 375px;
+height: 30px;
+left : 720px;
+top: 259px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+color: #2186F2;
+
+}
+.onboard_box{
+    position: absolute;
+width: 492px;
+height: 489px;
+left: 450px;
+top: 359px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+img{
+    width : 100%;
+    border-radius: 10px;
+
+}
+}
+.contain_head{
+    position: absolute;
+width: 345px;
+height: 21px;
+
+top: 385px;
+left : 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.contain_associate{
+    position: absolute;
+   
+    height: 21px;
+    
+    top: 425px;
+    left : 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+    cursor: pointer;
+    
+    color:  #2186F2;;
+}
+
+.onboard_box1{
+    position: absolute;
+width: 492px;
+height: 489px;
+left: 1000px;
+top: 359px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+img{
+    width: 100%;
+    border-radius: 10px;
+    height: 73%;
+    
+}
+}
+
+.onboard_box2{
+    position: absolute;
+width: 492px;
+height: 489px;
+left: 1550px;
+top: 359px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+img{
+    width : 100%;
+    border-radius: 10px;
+     height : 73%;
+}
+}
+
+.onboard_box3{
+    position: absolute;
+width: 492px;
+height: 489px;
+left: 2105px;
+top: 359px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+img{
+    width : 100%;
+    border-radius: 10px;
+    height : 73%;
+}
+}
+
+.onboard_box4{
+    position: absolute;
+width: 492px;
+height: 489px;
+left: 2655px;
+top: 359px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+img{
+    width : 100%;
+    border-radius: 10px;
+    height : 73%;
+}
+}
+
+.onboard_head1{
+
+    position: absolute;
+    width: 375px;
+    height: 30px;
+    left : 450px;
+    top: 959px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    
+    }
+    .onboard_active1{
+        position: absolute;
+    width: 375px;
+    height: 30px;
+    left : 720px;
+    top: 959px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2186F2;
+    
+    }
+    .onboard_box_team{
+    position: absolute;
+    width: 492px;
+    height: 489px;
+    left: 450px;
+    top: 1059px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    img{
+        width : 100%;
+        border-radius: 10px;
+        height : 73%;
+    }
+    }
+  
+    .onboard_box1_team{
+        position: absolute;
+    width: 492px;
+    height: 489px;
+    left: 1000px;
+ 
+    top: 1059px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    img{
+        width : 100%;
+        border-radius: 10px;
+        height : 73%;
+    }
+    }
+    
+    .onboard_box2_team{
+        position: absolute;
+    width: 492px;
+    height: 489px;
+    left: 1550px;
+    top: 1059px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    img{
+        width : 100%;
+        border-radius: 10px;
+         height : 73%;
+    }
+    }
+    
+    .onboard_box3_team{
+        position: absolute;
+    width: 492px;
+    height: 489px;
+    left: 2105px;
+    top: 1059px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    img{
+        width: 100%;
+        border-radius: 10px;
+        height: 73%;
+       
+}
+    }
+    
+    .onboard_box4_team{
+        position: absolute;
+    width: 492px;
+    height: 489px;
+    left: 2655px;
+    top: 1059px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    img{
+        width : 100%;
+        border-radius: 10px;
+        height : 73%;
+    }
+    }
+    
+
+    .onboard_head1_sooraj{
+
+        position: absolute;
+        width: 375px;
+        height: 30px;
+        left : 450px;
+        top: 1659px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000000;
+        
+        }
+        .onboard_active1_sooraj{
+            position: absolute;
+        width: 375px;
+        height: 30px;
+        left : 720px;
+        top: 1659px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        color: #2186F2;
+        
+        }
+        .onboard_box_team1{
+        position: absolute;
+        width: 492px;
+        height: 489px;
+        left: 450px;
+        top: 1759px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        img{
+            width : 100%;
+            border-radius: 10px;
+            height : 73%;
+        }
+        }
+      
+        .onboard_box1_team2{
+            position: absolute;
+        width: 492px;
+        height: 489px;
+        left: 1000px;
+     
+        top: 1759px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        img{
+            width : 100%;
+            border-radius: 10px;
+            height : 73%;
+        }
+        }
+        
+        .onboard_box2_team3{
+            position: absolute;
+        width: 492px;
+        height: 489px;
+        left: 1550px;
+        top: 1759px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        img{
+            width : 100%;
+            border-radius: 10px;
+             height : 73%;
+        }
+        }
+        
+        .onboard_box3_team4{
+            position: absolute;
+        width: 492px;
+        height: 489px;
+        left: 2105px;
+        top: 1759px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        img{
+            width : 100%;
+            border-radius: 10px;
+            height : 73%;
+        }
+        }
+        
+        .onboard_box4_team5{
+            position: absolute;
+        width: 492px;
+        height: 489px;
+        left: 2655px;
+        top: 1759px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        img{
+            width : 100%;
+            border-radius: 10px;
+            height : 73%;
+        }
+        }
+        

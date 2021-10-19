@@ -1,0 +1,23 @@
+.navOptions{
+   
+    display: flex;
+    .option{
+        cursor: pointer;
+        display: inline;
+        margin-right: 12rem;
+        font-size: 34px;
+        margin-top: 300px;
+        margin-left: 100px;
+    
+        h3{
+       
+            display: inline;
+            
+        }
+        &-active{
+
+            border-bottom: 2px solid blue;
+        }
+       
+    }
+}
