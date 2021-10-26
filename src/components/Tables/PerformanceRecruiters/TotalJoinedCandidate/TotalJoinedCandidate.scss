@@ -1,0 +1,61 @@
+.navOptions2{
+   
+    display: flex;
+    margin-left: 50px;
+ 
+    .option2{
+        
+        cursor: pointer;
+        display: inline;
+        margin-right: 12rem;
+        font-size: 42px;
+        margin-top: 50px;
+        margin-left: 100px;
+        
+        h3{
+       font-size: 35px;
+            display: inline;
+            
+        }
+        &-active{
+            color : #2186F2;
+            border-bottom: 2px solid blue;
+        }
+       
+    }
+}
+.onboard_test{
+    position: absolute;
+    width: 458px;
+    height: 55px;
+    top: 183px;
+    left: 100px;
+    padding-left: 50px;
+    font-size: 35px;
+    border: 1px solid #2186F2;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+.search_dash{
+    input{
+  
+        width: 1621px;
+        height: 65px;
+        margin-left: 700px;
+        margin-top: 68px;
+        padding-left: 50px;
+        background: #F4F4F4;
+        border-radius: 82px;
+        font-size: 30px;
+        padding-top: 0px;
+        
+        
+        }
+    img{
+        width : 50px;
+        margin-left: -100px;
+        
+        
+    }
+}

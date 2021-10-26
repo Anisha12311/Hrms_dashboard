@@ -8,6 +8,7 @@ export default function Employees() {
     const [navClicked,setNavClicked] = useState("Onboard")
     return (
         <div className = "dashboard-container">
+           
             <div className = "Top_btns">
            <button className = {`btn btn-w btn-${
                navClicked === "Onboard" ? "active" : "inactive"

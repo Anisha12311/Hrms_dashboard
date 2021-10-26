@@ -13,6 +13,7 @@ import Logout from './Pages/Logout/Logout';
 import reducer from './Reducer/reducer';
 import Sidebar from './components/Sidebar/Sidebar';
 import NavBar from './components/NavBar/NavBar';
+import Reports from './Pages/Reports/Reports';
 
 
 export const MyContext = createContext()
@@ -47,6 +48,7 @@ function App() {
                <Route exact path = "/email" component = {Email}/>
                <Route exact path = "/messages" component = {Message}/>
                <Route exact path = "/feeds" component = {Feeds}/>
+               <Route exact path = "/reports" component = {Reports}/>
                <Route exact path = "/logout " component = {Logout}/>
         
             </section>

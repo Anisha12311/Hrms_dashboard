@@ -72,7 +72,7 @@ export default function Shortlisted() {
                 <div className = "onboard_box1_team">
                 <div className = "Offer_text1">Offer Letter Pending</div>
                   <img src = {kalpana} alt = "" />
-                  <div className = "contain_head"  >Kalpana Bakshi</div>
+                  <div className = "contain_head"  onClick={()=>setDetails(true)}>Kalpana Bakshi</div>
                   <div className = "contain_associate">Marketing Head</div>
                 </div>
 

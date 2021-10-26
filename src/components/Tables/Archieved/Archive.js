@@ -96,31 +96,31 @@ export default function Archive() {
   
     return (
       <div>
-        <div class="container">
-          <table class="table table--shaded">
-            <thead class="table__head">
-              <tr class="table__row">
-                <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        <div class="container1">
+          <table class="table1 table--shaded1">
+            <thead class="table__head1">
+              <tr class="table__row1">
+                <td class="table__cell1 table__cell--checkbox1 table__cell--no-wrap1">
                   <input type="checkbox" onClick={()=>setCheckBox(!checkBox)}  />
                 </td>
   
-                <td class="table__cell table__cell--no-wrap">
+                <td class="table__cell1 table__cell--no-wrap1">
                   Name
                 </td>
-                <td class="table__cell table__cell--no-wrap">
+                <td class="table__cell1 table__cell--no-wrap1">
                   Contact No.
                 </td>
-                <td class="table__cell table__cell--no-wrap">Email</td>
-                <td class="table__cell table__cell--no-wrap">Mentor</td>
-                <td class="table__cell table__cell--remaino-wrapnder">
+                <td class="table__cell1 table__cell--no-wrap1">Email</td>
+                <td class="table__cell1 table__cell--no-wrap1">Mentor</td>
+                <td class="table__cell1 table__cell--remaino-wrapnder1">
                  Department
                 </td>
-                <td class="table__cell table__cell--no-wrap">Comments</td>
-                <td class="table__cell table__cell--no-wrap">Actions</td>
+                <td class="table__cell1 table__cell--no-wrap1">Comments</td>
+                <td class="table__cell1 table__cell--no-wrap1">Actions</td>
               </tr>
             </thead>
             
-            <tbody class="table__body">
+            <tbody class="table__body1">
   
   
               {dummyData.map((ele, index) => {
@@ -128,31 +128,31 @@ export default function Archive() {
                  
                   return ( 
                   <>
-            <tr className="spacer"></tr>
-              <tr class="table__row" key={index} >
-                <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+            <tr className="spacer1"></tr>
+              <tr class="table__row1" key={index} >
+                <td class="table__cell1 table__cell--checkbox1 table__cell--no-wrap1">
                   <input type="checkbox"   onChange={(e)=>e.target.checked===true?handleAdd(ele):handleRemove(ele)} />
                  
                 </td>
-                <td class="UserTable__name table__cell table__cell--no-wrap">
+                <td class="UserTable__name table__cell1 table__cell--no-wrap1">
                   {ele.name}
                 </td>
-                <td class="UserTable__name table__cell table__cell--no-wrap">
+                <td class="UserTable__name table__cel1 table__cell--no-wrap1">
                   {ele.contactNo}
                 </td>
-                <td class="UserTable__name table__cell table__cell--no-wrap">
+                <td class="UserTable__name table__cell1 table__cell--no-wrap1">
                 {ele.email}
                 </td>
-                <td class="UserTable__name table__cell table__cell--no-wrap">
+                <td class="UserTable__name table__cell1 table__cell--no-wrap1">
                 {ele.mentor}
                 </td>
-                <td class="UserTable__name table__cell table__cell--no-wrap">
+                <td class="UserTable__name table__cell1 table__cell--no-wrap1">
                 {ele.department}
                 </td>
-                <td class="UserTable__name table__cell table__cell--no-wrap">
+                <td class="UserTable__name table__cell1 table__cell--no-wrap1">
                 {ele.comments}
                 </td>
-                <td class="UserTable__name table__cell table__cell--no-wrap">
+                <td class="UserTable__name table__cell1 table__cell--no-wrap1">
                  <div style={{display: "flex",
       justifyContent: "center",
       alignItems: "center"}}>

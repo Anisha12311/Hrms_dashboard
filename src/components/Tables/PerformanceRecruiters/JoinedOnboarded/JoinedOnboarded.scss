@@ -1,0 +1,158 @@
+
+$border-color: (
+    light: #eaeaea,
+    medium: #e0e0e0,
+    dark: #d7d7d7
+  );
+  
+  $font-weight: (
+    light: 300,
+    regular: 400,
+    medium: 500,
+    bold: 700
+  );
+  
+  @function border-color($shade) {
+    @return map-get($border-color, $shade);
+  }
+  
+  @function font-weight($weight) {
+    @return map-get($font-weight, $weight);
+  }
+  
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+  
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+    font: font-weight(regular) 14px/1.5 "Roboto", sans-serif;
+  }
+  
+  input {
+    margin: 0;
+  }
+  
+  .container_ondash {
+    margin: 24px auto;
+    max-width: 95%;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .table_ondash {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table--bordered_ondash {
+    border: 1px solid map-get($border-color, dark);
+  }
+  
+  .table--shaded_ondash {
+    border-bottom: 2px solid #c6d5e3;
+  }
+  
+  .table__head_ondash {
+    border-bottom: 2px solid #c6d5e3;
+    color: black;
+    font-weight: 500;
+  font-size: 30px;
+    .table--shaded & {
+      background: #f7fafc;
+    }
+  }
+  
+  .table__row_ondash {
+    &:not(:last-of-type) {
+      border-bottom: 1px solid map-get($border-color, light);
+  
+  }
+  
+  
+  background-color: #fff;
+      border-radius: 2rem;
+  
+  }
+  .spacer_ondash{
+      height: 2rem;
+  }
+  
+  .table__cell1 {
+    padding: 16px 12px 14px;
+    text-align: center;
+  
+    .table__head_ondash & {
+      padding: 20px 12px 28px;
+    }
+    
+    .table--bordered_ondash &:not(:last-of-type) {
+      border-right: 1px solid map-get($border-color, light);
+      border-radius: 2rem;
+    }
+    
+    .table__head_ondash & {
+      font-weight: font-weight(bold);
+    }
+  }
+  
+  .table__cell--checkbox_ondash {
+    max-width: 25px;
+    padding: 16px 0 14px 12px;
+  
+    .table__head_ondash & {
+      padding: 10px 0 8px 12px;
+      font-size: 20px;
+    }
+  }
+  
+  .table__cell--no-wrap_ondash {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  .table__cell--remainder_ondash {
+    width: 99%;
+  }
+  
+  .UserTable__name1 {
+    max-width: 200px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  
+  .table-footer{
+      margin-top: 5rem;
+      // background-color: green;
+      height: 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;    
+      .btn1{
+          background-color: #fff;
+          font-weight: 800;
+          margin-right: 0.5rem;
+          height: 4rem;
+          padding: 0.8rem 1.5rem;
+          border-radius: 2rem;
+          cursor: pointer;
+          margin-right: 20px;
+          font-size: 20px;
+        
+      }
+      .btn1-w{
+          min-width: 12rem;
+      }
+      
+  }
+  .footer-left{
+      font-size: 20px;
+  }

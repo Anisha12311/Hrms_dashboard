@@ -1,0 +1,153 @@
+$border-color: (
+  light: #eaeaea,
+  medium: #e0e0e0,
+  dark: #d7d7d7
+);
+
+$font-weight: (
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 700
+);
+
+@function border-color($shade) {
+  @return map-get($border-color, $shade);
+}
+
+@function font-weight($weight) {
+  @return map-get($font-weight, $weight);
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: font-weight(regular) 14px/1.5 "Roboto", sans-serif;
+}
+
+input {
+  margin: 0;
+}
+
+.container {
+  margin: 34px auto;
+  max-width: 100%;
+  margin-left: 450px;
+  margin-right: 1.7%;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table--bordered {
+  border: 1px solid map-get($border-color, dark);
+}
+
+.table--shaded {
+  border-bottom: 2px solid #c6d5e3;
+}
+
+.table__head {
+  border-bottom: 2px solid #c6d5e3;
+  color: darken(#c6d5e3, 25%);
+
+  .table--shaded & {
+    background: #f7fafc;
+  }
+}
+
+.table__row {
+  &:not(:last-of-type) {
+    border-bottom: 1px solid map-get($border-color, light);
+
+}
+
+
+background-color: #fff;
+    border-radius: 2rem;
+
+}
+.spacer{
+    height: 2rem;
+}
+
+.table__cell {
+  padding: 16px 12px 14px;
+  text-align: center;
+
+  .table__head & {
+    padding: 30px 12px 8px;
+
+  }
+  
+  .table--bordered &:not(:last-of-type) {
+    border-right: 1px solid map-get($border-color, light);
+    border-radius: 2rem;
+  }
+  
+  .table__head & {
+    font-weight: font-weight(bold);
+    font-size: 50px;
+  }
+}
+
+.table__cell--checkbox {
+  max-width: 25px;
+  padding: 16px 0 14px 12px;
+
+  .table__head & {
+    padding: 10px 0 8px 12px;
+  }
+}
+
+.table__cell--no-wrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.table__cell--remainder {
+  width: 99%;
+
+}
+
+.UserTable__name {
+  max-width: 200px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.table-footer{
+    margin-top: 5rem;
+    // background-color: green;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    .btn{
+        background-color: #fff;
+        font-weight: 800;
+        margin-right: 0.5rem;
+        height: 4rem;
+    }
+    .btn1{
+        background-color: #fff;
+        font-weight: 800;
+        margin-right: 0.5rem;
+        height: 4rem;
+    }
+ 
+    
+}

@@ -9,7 +9,7 @@ import { FaFilter } from 'react-icons/fa'
 export default function Onboard()  {
 
 
-  const [emailBulk, setEmailBulk] = useState(false);
+  const [emailBulk1, setEmailBulk1] = useState(false);
   const [sendMessage, setSendMessage] = useState(false);
 
     const handleSort = () => {
@@ -29,31 +29,36 @@ export default function Onboard()  {
             
             <div className="listings-bar-right-filter">
               
-            
-       
-                <button onClick={handleSortfilter} className='btns btn-white'>
+           <button onClick={handleSortfilter} className='btns btn-white'>
             <span className='job-sort-batch-action-rel'>
               <>
             
               <span>Batch Actions</span>
                 <ul className='job-sort-batch-action1'>
-                  <div className='job-sort-batch-action1-square1'>&nbsp;</div>
+                  <div className='job-sort-batch-action1-square'>&nbsp;</div>
                   
-                  <li>
+                  <li >
              <img src = {message} alt = ""/>
-                    <span>Send Bulk Messages</span>
+                    <span onClick = {()=>setSendMessage(true)}>Send Bulk Messages</span>
+                    {sendMessage&&(
+             <SendMessage setSendMessage = {setSendMessage}></SendMessage>
+           )}
                   </li>
               
-    
+                  
                   <li>
              <img src = {email} alt = ""/>
                  
-                    <span>Send Bulk E-mails</span>
+                    <span onClick = {()=>setEmailBulk1(true)}>Send Bulk E-mails</span>
+                    {emailBulk1&&(
+             <Emailbulk setEmailBulk = {setEmailBulk1}></Emailbulk>
+           )}
                   </li>
-    
+               
               
-    
+                  
                 </ul>
+               
               </>
             </span>
     

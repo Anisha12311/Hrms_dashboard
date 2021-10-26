@@ -1,0 +1,151 @@
+.contain_email_box{
+    position: absolute;
+width: 785px;
+height: 399px;
+left: 950px;
+top: 420px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+border-radius: 20px;
+}
+.contain_email_box1{
+position: absolute;
+width: 785px;
+height: 106px;
+left: 0px;
+top: 0px;
+
+background: #2186F2;
+border-radius: 14px 14px 0px 0px;
+
+img{
+    margin-left: 450px;
+    width : 50px;
+    height : 50px;
+}
+}
+.contain_email_box1 h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+.popup_container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.637);
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.Popup_email{
+position: absolute;
+width: 137px;
+height: 30px;
+margin-left: 40px;
+margin-top: 40px;
+top: 130px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #515151;
+input{
+    position: absolute;
+width: 381px;
+height: 40px ;
+
+left : 190px;
+font-size: 20px;
+background: #FFFFFF;
+border: 1px solid #9F9F9F;
+box-sizing: border-box;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
+}
+}
+.popup_cancel{
+    position: absolute;
+    width: 155px;
+    height: 52px;
+    left:262px;
+    top: 280px;
+
+    font-size: 25px;
+
+    background: #c4c1c1;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-top: 4px;
+}
+.popup_Add{
+    position: absolute;
+width: 155px;
+height: 52px;
+left: 456px;
+top: 280px;
+padding-left : 30px;
+background: #2186F2;
+/* Shadow01 */
+cursor: pointer;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+border-radius: 50px;
+}
+
+.btn_popup_add{
+    margin-top: 9px;
+    margin-left: 29px;
+    font-size: 25px;
+    color : white;
+}
+.popup_close{
+    margin-top: 10px;
+    background-color: black;
+    width : 30px;
+}
+.email_format_list{
+    position: absolute;
+width: 505px;
+height: 30px;
+left: 267px;
+top: 409px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+list-style: none;
+padding: 0;
+
+}
+.email_format_listitems{
+    vertical-align: text-bottom;
+    margin-left: 2.2rem;
+}
+.left-section{
+    input{
+        margin-right: 10px;
+        width : 30px;
+        height: 20px;
+    }
+}
+.btn_popup_close{
+            margin-left : 100px;
+            width : 40px;
+}

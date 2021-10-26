@@ -1,0 +1,244 @@
+.Report_Quick{
+    position: absolute;
+width: 129px;
+height: 30px;
+left:41px;
+top: 123px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+
+
+}
+
+.Report_Custom{
+    position: absolute;
+width: 200px;
+height: 30px;
+left: 195px;
+top: 123px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+.Report_Automail{
+    position: absolute;
+width: 200px;
+height: 30px;
+left: 395px;
+top: 123px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+.Report_files{
+    position: absolute;
+  
+    left : 59px;
+    top: 18px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #2186F2;
+    
+
+}
+.Report_Icondow{
+    position : absolute;
+    color : #2186F2;
+    left: 5.97%;
+    right: 74.81%;
+    top: 19.48%;
+ 
+
+background: #FFFFFF;
+border: 1px solid #EBE9E9;
+box-sizing: border-box;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.06);
+border-radius: 79px;
+
+
+}
+.Excel_contain{
+    position: absolute;
+    width: 215px;
+    height: 59px;
+    justify-self: end;
+    
+    align-items: center;
+    left : 82%;
+    top: 243px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EBE9E9;
+    box-sizing: border-box;
+    border-radius: 46px;
+    
+}
+.Report_Filter{
+    position: absolute;
+    width: 145px;
+    height: 49px;
+    left: calc(45% - 145px/2 + 840.5px);
+    top: 123px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EBE9E9;
+    box-sizing: border-box;
+    border-radius: 46px;
+}
+
+.Report_line{
+    position: absolute;
+width: 190px;
+height: 0px;
+left: 15px;
+top: 167px;
+background-color: #2186F2;
+border: 3px solid #2186F2;
+}
+.container{
+    margin-top : 83px;
+}
+.table__cell {
+    max-width: 160px;
+}
+.btn-group{
+  
+        margin-right: 0;
+        border-radius: 0;
+    
+}
+.listings-bar-right-filter1_dash1{
+  
+    position: absolute;
+    width: 185px;
+    height: 59px;
+    padding-left: 30px;
+    padding-top: 10px;
+    left: 92%;
+    top: 243px;
+ 
+    background: #FFFFFF;
+    border: 1px solid #EBE9E9;
+    box-sizing: border-box;
+    border-radius: 46px;
+    color: black;
+
+   svg{
+      margin-top: 3px;
+      margin-left: 10px;
+   }
+}
+  
+    .btn-white {
+        background-color: #fff;
+        display: flex;
+       
+      
+        span {
+          margin-right: 0.3rem;
+          color :#2186F2;
+        }
+      }
+
+   
+
+
+
+    
+.job-sort-batch-action2 {
+    &-rel {
+      position: relative;
+    }
+  
+    &-square {
+      width: 2rem;
+      height: 2rem;
+      position: absolute;
+      background-color: #fff;
+      top: -0.9rem;
+      left: 50%;
+      transform: translatex(-50%) rotate(45deg);
+    }
+  
+    position: absolute;
+    top: 3.8rem;
+    left: 3rem;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: height 0.3s, visibility 0.2s, opacity 0.2s;
+  
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 2rem;
+    list-style: none;
+  
+    li {
+      margin: 1rem 0;
+      padding: 0.5rem;
+      display: flex;
+      align-items: center;
+      transition: all 0.3s;
+  
+      &:hover {
+        background-color: rgb(233, 233, 233);
+        border-radius: 2rem;
+      }
+  
+      img {
+        margin-right: 1rem;
+      }
+    }
+  }
+  
+  .job-batch-visible {
+    visibility: visible;
+    height: 17.7rem;
+    opacity: 1;
+  }
+
+  .job-sort-batch-visible {
+    visibility: visible;
+    height: 14.7rem;
+    opacity: 1;
+   margin-top: 15px;
+    width: 16rem;
+    left: 3rem
+  }
+  
+  .job-sort-batch-arrow {
+    transition: all 0.2s;
+  }
+  
+  .job-sort-job-batch-rotate {
+    transform: rotate(180deg);
+  }
+  

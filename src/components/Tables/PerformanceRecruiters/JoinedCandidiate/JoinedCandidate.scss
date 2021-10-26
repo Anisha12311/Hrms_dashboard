@@ -1,0 +1,93 @@
+.totalCandidate_dash{
+ position: absolute;
+    width: 100%;
+    height: 110%;
+    top: -100px;
+    left:-20px;
+    background:   #F2F2F2;
+    .batch{
+        display:flex;
+        .action{
+            width: 286px;
+            height: 65px;
+            padding-left: 40px;
+            font-size: 25px;
+            margin-top: 30px;
+            padding-top: 10px;
+            background: #FFFFFF;
+            border: 1px solid #EBE9E9;
+            box-sizing: border-box;
+            border-radius: 46px;
+        }
+        img{
+            margin-top: 43px;
+            margin-left: -60px;
+            width: 40px;
+            height: 30px;
+        }
+}
+    
+}
+.search{
+    position: absolute;
+    width: 591px;
+    height: 65px;
+top: 125px;
+left: 340px;
+font-size: 25px;
+padding-left: 20px;
+background: #FFFFFF;
+border: 1px solid #EBE9E9;
+box-sizing: border-box;
+border-radius: 46px;
+}
+.checked{
+    position: absolute;
+    width: 91px;
+    height: 65px;
+top: 125px;
+left: 2040px;
+font-size: 25px;
+padding-left: 20px;
+background: #FFFFFF;
+border: 1px solid #EBE9E9;
+box-sizing: border-box;
+border-radius: 46px;
+img{
+    width : 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+}
+.newest{
+    display: flex;
+    
+    position: absolute;
+width: 258px;
+height: 65px;
+left : 2150px;
+font-size: 25px;
+top:127px;
+padding-left: 15px;
+padding-top:10px ;
+background: #FFFFFF;
+border: 1px solid #EBE9E9;
+box-sizing: border-box;
+border-radius: 46px;
+
+img{
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 10px ;
+    cursor: pointer;
+}
+}
+.detail_dash{
+    position: absolute;
+width:100%;
+height: 100%;
+top: 239px;
+background: #FFFFFF;
+border-radius: 20px;
+}

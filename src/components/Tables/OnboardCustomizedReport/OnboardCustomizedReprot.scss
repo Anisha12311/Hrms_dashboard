@@ -1,0 +1,276 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.custom_report{
+  margin-left: 300px;
+}
+.custom_contain{
+    position: absolute;
+width: 1488px;
+height: 46px;
+left: 455px;
+top: 393px;
+border: 1px solid #515151;
+box-sizing: border-box;
+border-radius: 30px;
+
+}
+.custom_contain h3{
+    position: absolute;
+    width: 71px;
+    height: 30px;
+    left: 25px;
+    top: 3px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+   
+    text-decoration-line: underline;
+    
+    color: #000000;
+}
+.custom_all{
+    position: absolute;
+width: 80px;
+height: 30px;
+left: 105px;
+top: 6px;
+
+border: 1px solid #515151;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.custom_all h3{
+    position: absolute;
+width: 80px;
+height: 30px;
+left: 10px;
+top: 1px;
+
+
+}
+.custom_icon{
+    position: absolute;
+left: 64.03%;
+right: 70.58%;
+top: 25.1%;
+bottom: 77.9%;
+
+border: 2px solid #2186F2;
+
+}
+.custom_date{
+    position: absolute;
+width: 180px;
+height: 30px;
+left: 200px;
+top: 5px;
+
+border: 1px solid #515151;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.custom_date h3{
+    position: absolute;
+    width: 194px;
+    height: 24px;
+    left: 15px;
+    top: 4px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #515151;
+}
+.custom_icondate{
+    position: absolute;
+    left: 84.03%;
+    right: 70.58%;
+    top: 29.1%;
+    bottom: 77.9%;
+    
+    border: 2px solid #2186F2;
+}
+.custom_choose h2{
+    position: absolute;
+width: 153px;
+height: 36px;
+left: 455px;
+top: 551px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #000000;
+
+}
+.custom_input_box{
+    position: absolute;
+width: 348px;
+height: 59px;
+left: 727px;
+top: 539px;
+
+background: #FFFFFF;
+border: 1px solid #E0D7D7;
+box-sizing: border-box;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.06);
+border-radius: 12px;
+input{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+}
+.custom_arrow_subject{
+  position: absolute;
+left: 88.21%;
+right: 56.48%;
+top: 35.75%;
+bottom: 70.89%;
+transition: all 0.2s;
+
+box-sizing: border-box;
+
+}
+.custom_rotate{
+transform: rotate(180deg);
+}
+.custom_arrow_action{
+  position: absolute;
+  top: 1.4rem;
+  left: -1rem;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+ 
+  left: 15rem;
+  width: 22rem;
+  box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  list-style: none;
+  option{
+    margin: 1rem 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(233, 233, 233);
+      border-radius: 2rem;
+    }
+
+    img {
+      margin-right: 1rem;
+    }
+  }
+
+}
+.custom_list{
+  position: relative;
+}
+.custom_visible_subject{
+  visibility: visible;
+  height: 17.7rem;
+  opacity: 1;
+  height: 25rem;
+  width: 28rem;
+  left: 22rem;
+  z-index: 1;
+}
+.custom_arrow_square{
+  width: 2rem;
+          height: 2rem;
+          position: absolute;
+          background-color: #fff;
+          top: -0.9rem;
+          left: 50%;
+          transform: translatex(-50%) rotate(45deg);
+}
+
+
+.custom_choose_date h2{
+  position: absolute;
+  width: 153px;
+  height: 36px;
+  left: 455px;
+  top: 800px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.custom_input_box_date{
+  position: absolute;
+  width: 348px;
+  height: 59px;
+  left: 227px;
+  top: 539px;
+  
+  background: #FFFFFF;
+  border: 1px solid #E0D7D7;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  input{
+      padding-left: 30px;
+      padding-top: 20px;
+  }
+}
+.custom_choose_dateto h2{
+  position: absolute;
+  width: 153px;
+  height: 36px;
+  left: 1255px;
+  top: 800px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.btn-generate{
+position: absolute;
+width: 229px;
+height: 52px;
+left: 1709px;
+    top: 958px;
+cursor: pointer;
+padding-top: 10px;
+background: #2186F2;
+border-radius: 18.2692px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}

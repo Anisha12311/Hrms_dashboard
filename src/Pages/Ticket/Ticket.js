@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './Ticket.scss'
 export default function Ticket() {
     return (
-        <div>
-ticket
+        <div className="dashboard-container">
+               
         </div>
     )
 }

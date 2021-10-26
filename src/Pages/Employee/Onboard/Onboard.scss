@@ -2,34 +2,35 @@
 .listings-bar-right-filter1_dash{
     position: static;
     width: 145px;
-    height: 549px;
+    height: 49px;
     position: absolute;
-    
-    left : 78%;
+    left: 78%;
     top: 163px;
-    
+    z-index: 1;
     background: #FFFFFF;
     border: 1px solid #EBE9E9;
     box-sizing: border-box;
     border-radius: 46px;
-    
     color: black;
- 
-    }
+   
+}
     .job-sort-batch-action-rel{
         color: black;
         font-size: 22px;
         padding-right: 40px;
         
       }
+      .job-sort-batch-action{
+        height : 100px;
+      }
     .job-sort-batch-visible{
-        width : 15rem;
-        height : 15rem;
+       
+        height : 75rem;
         color : black;
         visibility: visible;
-        height: 17.7rem;
+     
         opacity: 1;
-        height: 15rem;
+      
         width: 37rem;
         top:70px;
         left: -3rem;
@@ -55,6 +56,11 @@
           top: -0.9rem;
           left:40%;
     
+
+
+
+
+          
     }
       
         position: absolute;

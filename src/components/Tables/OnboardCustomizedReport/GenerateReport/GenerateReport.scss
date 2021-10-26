@@ -1,0 +1,40 @@
+.generate_box{
+    position: absolute;
+    width: 83%;
+    height: 100%;
+    margin-left: 125px;
+    top: 250px;
+    
+    background: #f1eeee;
+}
+.Jobposting_head{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+}
+.backarrow{
+    position: absolute;
+    left: 1.3%;
+    right: 12.54%;
+    top: 2.83%;
+    bottom: 20.83%;
+}
+.Custom_contain{
+    position: absolute;
+    width: 195px;
+    height: 69px;
+    justify-self: end;
+    
+    align-items: center;
+    left : 92%;
+    top: 13px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EBE9E9;
+    box-sizing: border-box;
+    border-radius: 46px;
+    
+}
