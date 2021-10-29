@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Attendence() {
+export default function MyTeam() {
     return (
         <div>
-            Attendence
+            my
         </div>
     )
 }

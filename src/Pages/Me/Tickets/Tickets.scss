@@ -1,0 +1,26 @@
+.navOptions_tit{
+    margin-left: 22rem;
+    font-size: 3rem;
+    display: flex;
+    .option{
+        cursor: pointer;
+        display: inline;
+        margin-right: 2rem;
+        margin-left: 30rem;
+        margin-top: 30rem;
+
+        h3{
+            
+            margin-top: 400px;
+            display: inline;
+            
+        }
+        &-active{
+
+            border-bottom: 2px solid blue;
+        }
+       
+    }
+
+    
+}

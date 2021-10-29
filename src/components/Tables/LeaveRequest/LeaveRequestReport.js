@@ -1,15 +1,11 @@
-import React,{useState} from "react";
-import './PerformanceRecruiters.scss';
-import oda from '../../../asserts/images/oda.png';
-import Recruiters from "../../../Pages/Performance/Recrutiers/Recruiters";
-import RecruiterDetails from "../../RecruiterDetails/RecruiterDetails";
+import React from "react";
 
-export default function PerformanceRecrutiers() {
+
+export default function LeaveRequestReport() {
  
-    const [recruiterDetails , setRecruiterDetails] = useState(false)
   return (
     <div>
-      <div class="container_Perfromance">
+      <div class="container">
         <table class="table table--shaded">
           <thead class="table__head">
             
@@ -19,31 +15,31 @@ export default function PerformanceRecrutiers() {
             
             <tr className="spacer"></tr>
            
-       <tr class="table__row" style = {{fontWeight: "500"}}>
+            <tr class="table__row" style = {{fontWeight: "500"}}>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        Recruiter Name
+        Name
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-         ID
+       ID
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        Credits
+         Applied On
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        Total Select
+        Leave From
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        Yet to Join 
+        Leave Till
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        Profile Tagged
+        Comments
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        Dropped
+         Counts
        </td>
        
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       Action
+       Status
        </td>
       
       
@@ -54,30 +50,31 @@ export default function PerformanceRecrutiers() {
      <tr className="spacer"></tr>
      <tr class="table__row">
        <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
+        Abhishek
+       </td>
+      
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
+        22 July, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
+       23 July, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
+      27 july, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
+      Lorem ipsum dolor
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
+        4 days
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
+        Approved
        </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-        onClick = {() => setRecruiterDetails(true)}>
-      See Details
-       </td>
+      
       
       
 
@@ -89,31 +86,32 @@ export default function PerformanceRecrutiers() {
      <tr className="spacer"></tr>
      <tr class="table__row">
      <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-        onClick = {() => setRecruiterDetails(true)}>
-      See Details
+        Abhishek
        </td>
       
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        22 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+       23 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      27 july, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      Lorem ipsum dolor
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        4 days
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        Approved
+       </td>
+      
+
      </tr>
    
    
@@ -123,100 +121,30 @@ export default function PerformanceRecrutiers() {
      <tr className="spacer"></tr>
      <tr class="table__row">
      <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-        onClick = {() => setRecruiterDetails(true)}>
-      See Details
+        Abhishek
        </td>
       
-     </tr>
-
-
-
-
-
-
-     <tr className="spacer"></tr>
-     <tr class="table__row">
-     <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
+        22 July, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
+       23 July, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
+      27 july, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
+      Lorem ipsum dolor
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
+        4 days
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
+        Approved
        </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-        onClick = {() => setRecruiterDetails(true)}>
-      See Details
-       </td>
-      </tr>
-
-   
-   
-
-
-
-     <tr className="spacer"></tr>
-     <tr class="table__row">
-     <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-        onClick = {() => setRecruiterDetails(true)}>
-      See Details
-       </td>
-      
       
 
      </tr>
@@ -224,37 +152,39 @@ export default function PerformanceRecrutiers() {
 
 
 
+
+
      <tr className="spacer"></tr>
      <tr class="table__row">
      <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-       onClick = {() => setRecruiterDetails(true)}>
-      See Details
+        Abhishek
        </td>
       
-
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        22 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+       23 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      27 july, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      Lorem ipsum dolor
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        4 days
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        Approved
+       </td>
+      
      </tr>
 
+   
    
 
 
@@ -262,30 +192,65 @@ export default function PerformanceRecrutiers() {
      <tr className="spacer"></tr>
      <tr class="table__row">
      <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
+        Abhishek
+       </td>
+      
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
+        22 July, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
+       23 July, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
+      27 july, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
+      Lorem ipsum dolor
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
+        4 days
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
+        Approved
        </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-        onClick = {() => setRecruiterDetails(true)}>
-      See Details
+      
+
+     </tr>
+
+
+
+
+     <tr className="spacer"></tr>
+     <tr class="table__row">
+     <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
+        Abhishek
        </td>
+      
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        22 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+       23 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      27 july, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      Lorem ipsum dolor
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        4 days
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        Approved
+       </td>
+      
       
 
      </tr>
@@ -297,31 +262,65 @@ export default function PerformanceRecrutiers() {
      <tr className="spacer"></tr>
      <tr class="table__row">
      <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-        onClick = {() => setRecruiterDetails(true)}>
-      See Details
+        Abhishek
        </td>
       
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        22 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+       23 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      27 july, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      Lorem ipsum dolor
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        4 days
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        Approved
+       </td>
+      
+
+     </tr>
+
+   
+
+
+
+     <tr className="spacer"></tr>
+     <tr class="table__row">
+     <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
+        Abhishek
+       </td>
+      
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        22 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+       23 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      27 july, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      Lorem ipsum dolor
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        4 days
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        Approved
+       </td>
       
 
      </tr>
@@ -329,101 +328,95 @@ export default function PerformanceRecrutiers() {
      <tr className="spacer"></tr>
      <tr class="table__row">
      <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-        onClick = {() => setRecruiterDetails(true)}>
-      See Details
+        Abhishek
        </td>
       
-
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        22 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+       23 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      27 july, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      Lorem ipsum dolor
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        4 days
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        Approved
+       </td>
+      
      </tr>
 
      <tr className="spacer"></tr>
      <tr class="table__row">
      <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-        onClick = {() => setRecruiterDetails(true)}>
-      See Details
+        Abhishek
        </td>
       
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        22 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+       23 July, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      27 july, 2021
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+      Lorem ipsum dolor
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        4 days
+       </td>
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        Approved
+       </td>
       
-
      </tr>
 
 
      <tr className="spacer"></tr>
      <tr class="table__row">
      <td class=" UserTable__name table__cell table__cell--checkbox table__cell--no-wrap">
-       <img src = {oda} alt = ""style = {{width : "40px", marginRight : "10px"}}/> Oda Dink
+        Abhishek
+       </td>
+      
+       <td class="UserTable__name table__cell table__cell--no-wrap">
+        #JT-00150
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-        #JC-00150
+        22 July, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-         480/500
+       23 July, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-      185
+      27 july, 2021
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
+      Lorem ipsum dolor
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       125
+        4 days
        </td>
        <td class="UserTable__name table__cell table__cell--no-wrap">
-       75
-       </td>
-       <td class="UserTable__name table__cell table__cell--no-wrap" style = {{color : "#2186F2", cursor : "pointer"}}
-       onClick = {() => setRecruiterDetails(true)}>
-      See Details
+        Approved
        </td>
       
 
      </tr>
-         
-         {recruiterDetails && (
-             <RecruiterDetails setRecruiterDetails={setRecruiterDetails}></RecruiterDetails>
-         )} 
+
    
    </tbody>
  </table>

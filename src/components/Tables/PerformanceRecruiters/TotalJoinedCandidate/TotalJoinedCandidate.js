@@ -2,9 +2,12 @@ import React,{useState} from 'react'
 import './TotalJoinedCandidate.scss'
 import search1 from '../../../../asserts/icons/search1.png'
 import JoinedOnboarded from '../JoinedOnboarded/JoinedOnboarded';
+import CurrentJoined from '../CurrentJoined/CurrentJoined';
+import ProfileTagged from '../ProfileTagged/ProfileTaged';
+import Dropped from '../Dropped/Dropped';
 export default function TotalJoinedCandidate() {
     
-    const [navClicked, setNavClicked] = useState("Candidatedetails");
+    const [navClicked, setNavClicked] = useState("TotalJoined");
     return (
     <div> 
         <div>
@@ -18,18 +21,18 @@ export default function TotalJoinedCandidate() {
                       <h3>Total Joined</h3>
                       </div>
                   <div style = {{marginLeft : "350px"}} className = {`option2 ${
-                      navClicked ===  "QuickReport" ? " option2-active" : "" }`}
-                      onClick = {() => setNavClicked("QuickReport")}>
+                      navClicked ===  "CurrentJoined" ? " option2-active" : "" }`}
+                      onClick = {() => setNavClicked("CurrentJoined")}>
                       <h3>Total Yet to Join</h3>
                       </div>
                   <div style = {{marginLeft : "350px"}} className ={`option2 ${
-                      navClicked === "AutoEmail" ? "option2-active" : ""}`}
-                      onClick  ={() => setNavClicked("AutoEmail")}>
+                      navClicked === "ProfileTagged" ? "option2-active" : ""}`}
+                      onClick  ={() => setNavClicked("ProfileTagged")}>
                       <h3>Profile Tagged</h3> </div>
 
                   <div style = {{marginLeft : "350px"}} className ={`option2 ${
-                      navClicked === "AutoEmail1" ? "option2-active" : ""}`}
-                      onClick  ={() => setNavClicked("AutoEmail1")}>
+                      navClicked === "Dropped" ? "option2-active" : ""}`}
+                      onClick  ={() => setNavClicked("Dropped")}>
                       <h3>Dropped</h3> </div>
                 </div>
                 </div>
@@ -43,6 +46,9 @@ export default function TotalJoinedCandidate() {
                     </div>
 
                     {navClicked === "TotalJoined" && (<JoinedOnboarded></JoinedOnboarded> )}
+                    {navClicked === "CurrentJoined" && (<CurrentJoined></CurrentJoined> )}
+                    {navClicked === "ProfileTagged" && (<ProfileTagged></ProfileTagged> )}
+                    {navClicked === "Dropped" && (<Dropped></Dropped> )}
             </div>
          
            

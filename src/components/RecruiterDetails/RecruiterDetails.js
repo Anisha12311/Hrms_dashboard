@@ -35,31 +35,31 @@ export default function RecruiterDetails() {
                         </div>
 
                         <div className = "contain_box1">
-                        <h3>Candidates Joined this Month</h3>
+                        <h3 onClick = {() => setDetails(true)}>Candidates Joined this Month</h3>
                         <h1>75</h1>
                         <img alt ='text' src={design}/>
                         </div>
 
                         <div className = "contain_box2">
-                        <h3>Total Candidates Yet to Join</h3>
+                        <h3 onClick = {() => setDetails(true)}>Total Candidates Yet to Join</h3>
                         <h1>75</h1>
                         <img alt ='text' src={design}/>
                         </div>
 
                         <div className = "contain_box3">
-                        <h3>No of Profiles tagged</h3>
+                        <h3 onClick = {() => setDetails(true)}>No of Profiles tagged</h3>
                         <h1>125</h1>
                         <img alt ='text' src={design}/>
                         </div>
 
                         <div className = "contain_box4">
-                        <h3>Candidates Dropped</h3>
+                        <h3 onClick = {() => setDetails(true)}>Candidates Dropped</h3>
                         <h1>75</h1>
                         <img alt ='text' src={design}/>
                         </div>
 
                         <div className = "contain_box5">
-                        <h3>Pending Candidate Applications</h3>
+                        <h3 onClick = {() => setDetails(true)}>Pending Candidate Applications</h3>
                         <h1>05</h1>
                         <img alt ='text' src={design}/>
                         </div>

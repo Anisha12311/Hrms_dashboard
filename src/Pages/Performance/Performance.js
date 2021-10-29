@@ -16,8 +16,7 @@ export default function Performance() {
            </div>
            {navClicked === "Onboard" && (
      <Recruiters></Recruiters>
-    
-   )}
+     )}
         </div>
     )
 }
