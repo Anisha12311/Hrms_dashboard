@@ -24,7 +24,7 @@ const Auth = (props) => {
     
       // localStorage.setItem('litime',litm);
       const response = await axios({
-        url: "http://13.233.247.187/api/dash/login",
+        url: `${URL}/api/dash/login`,
         method: "POST",
         data: {
           userName,
