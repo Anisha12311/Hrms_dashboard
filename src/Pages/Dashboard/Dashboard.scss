@@ -10,11 +10,12 @@
       border-radius: 2rem;
       padding: 1rem;
       zoom: 70%;
-      
+      overflow-y: hidden;
 }
 }
 .Leave_session{
-    overflow-y: hidden;
+  
+    overflow: hidden;
     margin-bottom: 3rem;
     h1{
         position: absolute;
@@ -43,7 +44,7 @@ width: 428px;
 height: 625px;
 left: 400px;
 top: 299px;
-
+overflow: hidden;
 background: #FFFFFF;
 box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
@@ -68,6 +69,7 @@ line-height: 27px;
 margin-left: 20px;
 color: #000000;
 margin-top: 10px;
+
 }
 .User_base{
     font-family: Poppins;
@@ -118,7 +120,7 @@ width: 428px;
 height: 625px;
 left: 900px;
 top: 299px;
-
+overflow: hidden;
 background: #FFFFFF;
 box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
@@ -137,7 +139,7 @@ top: 299px;
 background: #FFFFFF;
 box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
-
+overflow: hidden;
   img{
     border-radius: 10px;
     width : 100%;
@@ -150,7 +152,7 @@ width: 428px;
 height: 625px;
 left: 1900px;
 top: 299px;
-
+overflow: hidden;
 background: #FFFFFF;
 box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
@@ -348,6 +350,7 @@ color: rgba(12, 12, 12, 0.7);
     box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     margin-top: 1700px;
+    overflow: hidden;
     img{
         position: absolute;
         width: 80px;
@@ -420,6 +423,7 @@ cursor: pointer;
     box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     margin-top: 1700px;
+    overflow: hidden;
     img{
         position: absolute;
         width: 80px;
@@ -439,6 +443,7 @@ cursor: pointer;
     box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     margin-top: 1700px;
+    overflow: hidden;
     img{
         position: absolute;
         width: 80px;

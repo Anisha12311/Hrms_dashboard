@@ -14,8 +14,9 @@
     padding: 1rem;
     height : 190rem;
     .side-heading {
-
+      
       margin-bottom: 2rem;
+     
       h1{
         font-size: 4rem;
         margin-top: 2rem;
@@ -285,12 +286,13 @@ display: flex;
 }
 .new_candidate{
   margin-left: 1rem;
-  margin-top: -32rem;
+  margin-top: 2rem;
   font-size: 3.5rem;
   color : black;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
+  margin-left: 10px;
   img{
     margin-top: 3rem;
     margin-left: 13rem;

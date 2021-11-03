@@ -107,7 +107,7 @@ const Email = () => {
           <div className="side-heading">
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <h1>Inbox</h1>
-              <img src = {arrows} alt = "" width  = "50px" height  = "40px"style = {{marginTop: "3rem", marginLeft : "-25rem"}}/>
+              <img src = {arrows} alt = "" width  = "50px" height  = "40px"style = {{marginTop: "3rem", marginLeft : "2rem",position : "fixid" }}/>  
               <div style={{ display: "flex", justifyContent: "space-evenly", alignItems: "center", cursor: "pointer" }}>
 
 
