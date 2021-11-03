@@ -1,0 +1,82 @@
+.email-template {
+    background-color: #fff;
+    height: 65rem;
+    border-radius: 2rem;
+  
+  
+    &-top {
+      background-color: var(--primary);
+      display: flex;
+      padding: 1.5rem 1.2rem;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+      height: 7rem;
+      border-top-left-radius: 2rem;
+      border-top-right-radius: 2rem;
+
+  
+      img {
+        height: 2.5rem;
+        cursor: pointer;
+      }
+    }
+  
+    &-title{
+        font-weight: 600;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+  
+    &-body {
+
+      padding: 2rem;
+      text-align: left;
+      label {
+        display: block;
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+        color: #515151;
+      }
+      img{
+          display: inline-block;
+          position: relative;
+          top: 3rem;
+          margin-right: 2rem;
+      }
+      input {
+        display: inline-block;
+        border-bottom: 1px solid #ccc;
+        width: 50%;
+        padding: 1rem 0.5rem;
+      }
+
+  
+    }
+
+    .company-email-footer{
+        display: flex;
+        gap: 2rem;
+        width: 40   rem;
+        margin-left: 2rem;
+     
+        .left-text{
+
+            
+            color: var(--primary);
+            font-weight: 600;
+            text-align: center;
+            font-size: 2rem;
+            padding: 1rem;
+            border-right: 1px solid black;
+
+            display: flex;
+            align-items: center;
+        }
+        .right-text{
+            color: #515151B2;
+        }
+        
+      }
+} 

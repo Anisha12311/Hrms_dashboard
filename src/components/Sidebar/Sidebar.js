@@ -23,7 +23,7 @@ const Sidebar = ({ setHeading }) => {
              <ul>
 
 
-          <Link to="/">
+          <Link to="/dashboard">
       <li className={active==="dashboard"?"activeTab":""} 
       onClick={()=>{setActive("dashboard");
 

@@ -24,7 +24,7 @@ const Auth = (props) => {
     
       // localStorage.setItem('litime',litm);
       const response = await axios({
-        url: `${URL}/api/dash/login`,
+        url: "http://13.233.247.187/api/dash/login",
         method: "POST",
         data: {
           userName,
@@ -83,7 +83,7 @@ const Auth = (props) => {
       //   history.push("/");
       // }
     } catch (err) {
-       setError(err.response.data.message);
+      // setError(err.response.data.message);
       // setError(err. )
 
       console.log(err.response);

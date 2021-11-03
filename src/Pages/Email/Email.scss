@@ -1,0 +1,303 @@
+.email {
+  &-container {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 3rem;
+    height: calc(100vh - 25rem);
+    margin-bottom: 2rem;
+    zoom: 95%;
+    margin-top: 20rem;
+    margin-left: 48rem;
+  }
+
+  &-left {
+    padding: 1rem;
+    height : 190rem;
+    .side-heading {
+
+      margin-bottom: 2rem;
+      h1{
+        font-size: 4rem;
+        margin-top: 2rem;
+    
+      }
+    }
+
+    .email-batch-action {
+      &-rel {
+        position: relative;
+      }
+
+      &-square {
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        background-color: #fff;
+        top: -0.9rem;
+        left: 50%;
+        transform: translatex(-50%) rotate(45deg);
+       
+}
+
+      position: absolute;
+      top: 4.8rem;
+      left: -6.7rem;
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: height 0.3s, visibility 0.4s, opacity 0.4s;
+      width: 16rem;
+
+      box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 2rem;
+      list-style: none;
+
+      li {
+        margin: 1rem 0;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s;
+
+        &:hover {
+          background-color: rgb(233, 233, 233);
+          border-radius: 2rem;
+        }
+
+        img {
+          margin-right: 1rem;
+        }
+      }
+    }
+.email-search-box{
+  input {
+  margin-left:2rem ;
+  font-size: 2rem;
+  }
+}
+    .email-batch-visible {
+      visibility: visible;
+      height: 6.7rem;
+      width: 16rem;
+      opacity: 1;
+    }
+
+    &-info-box {
+      overflow-y: scroll;
+      height: 171rem;
+    }
+    &-info-box::-webkit-scrollbar {
+      display: none;
+    }
+    &-btns {
+      display: flex;
+      text-align: center;
+      margin: 3rem 0;
+    }
+  }
+
+  &-right {
+    display: grid;
+    grid-template-rows: 6rem 10rem 0.8fr 2rem;
+    // height: calc(100vh - 7rem);
+    background: #fff;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 6rem;
+
+    &-topbar {
+      font-weight: 800;
+      margin: 1rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      font-size: 3rem;
+      margin-left: 2rem;
+      
+      &-info {
+        display: flex;
+        height: 9rem;
+        display: flex;
+        margin-top: 3rem;
+        justify-content: space-between;
+        &-content {
+          display: flex;
+          justify-content: space-between;
+          img {
+            height: 8rem;
+            width: 8rem;
+            border-radius: 5rem;
+            margin-top: 2rem;
+            margin-left: 2rem;
+          }
+          h1 {
+            font-weight: 300;
+            margin-left: 2rem;
+            color: #878787;
+            font-size: 3rem;
+
+            h6 {
+              margin-top: 1rem;
+              font-weight: 400;
+            }
+          }
+        }
+        .time {
+          margin-right: 2rem;
+          font-size: 2rem;
+        }
+      }
+    }
+
+    &-middle {
+      overflow-y: scroll;
+      margin-bottom: 3rem;
+      &-overflow {
+        h3 {
+          height: 100%;
+          font-weight: 400;
+          line-height: 1.6;
+          margin: 2rem;
+          margin-top: 13rem;
+          color: #878787;
+          font-size: 3rem;
+        }
+      }
+    }
+
+    &-middle::-webkit-scrollbar {
+      display: none;
+    }
+
+    &-bottom {
+      width: 100%;
+      .textbox {
+        height: 7.8rem;
+        width: 100%;
+        border: 2px solid #ccc;
+        border-radius: 1rem;
+        input {
+          border-radius: 1rem;
+          width: 100%;
+          height: 100%;
+          padding: 0 1rem;
+          font-size: 3rem;
+
+          &:focus {
+            outline: 2px solid #2186f2;
+          }
+        }
+      }
+
+      &-editorOption {
+        // background-color: green;
+        height: 7rem;
+        display: flex;
+        margin-top: 3rem;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        .buttons1 {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          .reply {
+            background-color: #2186f2;
+            height: 5rem;
+            color: #fff;
+            font-weight: 700;
+            font-size: 2rem;
+            align-items: center;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 2rem;
+          }
+          img {
+            margin-right: 2rem;
+            width : 30px;
+            height : 30px;
+          }
+        }
+        .buttons2 {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          img {
+            margin-right: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  &-search-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 1.3rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+
+    svg {
+      height: 1.8rem;
+      margin-right: 0.5rem;
+      transform: rotate(270deg);
+    }
+  }
+}
+.staranddots {
+  margin-left: auto;
+  display: flex;
+  width: 20rem;
+  padding-right: 2rem;
+  margin-bottom: 6rem;
+  margin-top: 0.6rem;
+}
+.star {
+  margin-left: 8rem;
+  margin-right: 2rem;
+  width : 40px;
+}
+.dots {
+  padding-left: 3rem;
+  transform: rotate(90deg);
+  margin-top: 0.2rem;
+}
+.time {
+  margin-right: auto;
+  padding-top: 4rem;
+  padding-right: 3rem;
+}
+.image {
+  position: relative;
+  bottom: 2rem;
+}
+.excel_contain{
+ margin-top: 20rem;
+width: 689px;
+height: 117px;
+background: #FFFFFF;
+border: 2px solid #EBE9E9;
+box-sizing: border-box;
+display: flex;
+
+}
+.new_candidate{
+  margin-left: 1rem;
+  margin-top: -32rem;
+  font-size: 3.5rem;
+  color : black;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  img{
+    margin-top: 3rem;
+    margin-left: 13rem;
+    position: fixed;
+  }
+}
+.sheet_contain{
+  margin-left: 170px;
+  margin-top: -40px;
+}

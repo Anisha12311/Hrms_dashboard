@@ -1,0 +1,59 @@
+.config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    &-box {
+        background-color: white;
+        height: 55rem;
+        width: 70rem;
+        text-align: center;
+    };
+    &-heading{
+        margin-top: 5rem;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5rem;
+    }
+    .icons2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 7rem;
+    }
+    
+    .input-container {
+        margin-bottom: 1.8rem;
+        // background-color: red;
+        margin-top: 10rem;
+        text-align: left;
+    
+
+        label {
+          display: block;
+          margin-bottom: 2rem;
+          margin-left: 4rem;
+          
+        }
+        .input-box{
+            display: flex;
+            justify-content: center;
+            input{
+                height: 5rem;
+                width: 90%;
+                border:1px solid gray
+    
+          
+            }
+        }
+    }
+        .check-form{
+            margin-top: 7rem;
+    }
+    .btn{
+        margin-top: 4rem;
+
+    }
+}
+  

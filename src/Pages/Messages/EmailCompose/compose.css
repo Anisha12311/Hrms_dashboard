@@ -1,0 +1,118 @@
+.headingEmail{
+    border-radius:8px 0  0 0 ;
+    position: relative;
+    top:-20px;
+    left:-20px;
+    
+    height: 75px;
+}
+.headingEmail h1{
+position: relative;
+top:23px;
+left:19px;
+}
+.closebtn{
+    /* border: 1px solid red; */
+    position: relative;
+    top:-95px;
+     width: 96px;
+    left:880px;
+    height:75px;
+    border-radius:0 8px 0 0 ;
+    cursor:pointer;
+}
+.formofEmailCandidates{
+    position: relative;
+    top:-70px;
+}
+.textareaMail{
+    border:4px solid dodgerblue;
+    border-radius: 10px;
+    width:100%;
+}
+.mailbtn{
+    top:20px;
+    position: relative;
+    float:right;
+}
+.previewmail{
+    border: 2px solid dodgerblue !important;
+  
+}
+.sendmail{
+    width:100px;
+}
+.cancelmail{
+    border: 1px solid darkgray !important;
+    color:darkgray !important;
+    font-size: 14px !important;
+
+}
+.savetemplate{
+    /* border:2px solid red; */
+    position: relative;
+    float: left !important;
+    left:-350px;
+    top:10px;
+}
+.headingPreviewEmail{
+    position: relative;
+    width: 700px;
+    height: 70px;
+    top:-20px;
+    left:-20px;
+    border-radius: 8px 0 0 0;
+}
+.closebtnPreview{
+    position: relative;
+    top:-90px;
+    width: 100px;
+    border-radius: 0 8px 0 0;
+    left:620px;
+    height:70px
+
+}
+.formPreview{
+    position: relative;
+    top:-70px;
+}
+.textareaCheckPreview{
+    width: 95%;
+    margin-left: 20px;
+}
+.headingPreviewEmail h1{
+    position: relative;
+    top:20px;
+    left:20px
+}
+.headingEmailSent{
+    width:400px;
+    height:70px;
+    position: relative;
+    top:-20px;
+    left:-20px;
+
+
+}
+.headingEmailSent h1{
+    position: relative;
+    top:20px;
+    left:15px;
+
+}
+.closebtnPreviewSent{
+    position: relative;
+    width:70px;
+    border-radius: 0 7px 0 0;
+    top:-90px;
+    left:350px;
+    height: 70px;
+    background-color: dodgerblue;
+}
+.msgSuccess{
+    position: relative;
+    top:-60px;
+    left:80px;
+    display: inline;
+    height:50px ;
+}
