@@ -1,0 +1,87 @@
+.leave{
+    &-top{
+        display: flex;
+        justify-content: start;
+        margin-top: 3rem;
+    }
+    &-box{
+        background: #fff;
+        width: 39rem;
+        height: 22rem;
+        padding: 2rem;
+        border-radius: 1.5rem;
+        margin-right:3rem;
+        box-shadow: 0px 4px 15px grey;
+
+        // font-weight: 00;
+        h3{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 3rem;
+        }
+        h4{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.5rem;
+        }
+    }
+}
+.btn1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 16px;
+    position: absolute;
+    width: 108px;
+    height: 41px;
+    left: 1520px;
+    top: 967px;
+    background: #2186F2;
+    border-radius: 20px;
+ 
+}
+
+.feedbackForm-popup1 {
+    background-color: #fff;
+    width: 200rem;
+    height: 120rem;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 16%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1.2rem;
+    overflow: hidden;
+
+}
+
+.form-head{
+    h1{
+        font-size: 4rem;
+        margin-top: 5rem;
+    }
+}
+
+.feedbackForm-popup-body .btn-cancel1 {
+    background-color: #F4F4F4;
+    color: #9F9F9F;
+    font-size: 3rem;
+
+    position: relative;
+   margin-right: 10rem;
+
+    top: 14rem;
+}
+.feedbackForm-popup-body .reply1 {
+    background-color: #2186f2;
+    color: #fff;
+    width: 20rem;
+    font-size: 3rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.8rem;
+    margin-top: 130px;
+}

@@ -1,0 +1,71 @@
+.Received_total{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 50px;
+    color: #000000;
+   }
+   .email-popupmt3{
+   background-color: #fff;
+   width: 35vw;
+   height: 90rem;
+   box-shadow: 0px 0px 20px rgb(0 0 0 / 16%);
+   position: absolute;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 1.2rem;
+   overflow: hidden;
+   &-containermt2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.637);
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .test{
+      position: relative;
+    
+  }
+  table, td{
+     text-align: center;
+     vertical-align: middle;
+  }
+  .tabCnt{
+      justify-content: center;
+      display: block;
+      position: relative;
+      justify-content: center;
+      padding: 2rem;
+  }
+
+ table, td{
+      border-radius: 2rem;
+      border: 1px solid black;
+  }
+  td{
+      padding: 1rem;
+      font-size: 3rem;
+  }
+  .leaveTable{
+      padding: 2rem;
+  }
+  table{
+    border-collapse: collapse;
+  }
+  .leaveHead{
+      text-decoration: underline;
+      font-size: 4rem;
+  }
+  .leaveContent{
+      position: relative;
+      padding: 2rem;
+      display: inline-block;
+  }
+   
+}

@@ -32,6 +32,7 @@ function App() {
   const [data,dispatch] = useReducer(reducer,iState)
   const [heading, setHeading] = useState("Dashboard")
 
+  
   return (
     <MyContext.Provider value = {{heading:data,changeHeading:dispatch,credits: data }}>
     <div className="App">
@@ -55,7 +56,7 @@ function App() {
                <Route exact path = "/messages" component = {Message}/>
                <Route exact path = "/feeds" component = {Feeds}/>
                <Route exact path = "/reports" component = {Reports}/>
-               <Route exact path = "/logout " component = {Logout}/>
+               <Route exact path = "/" component = {Logout}/>
         
             </section>
             </div>

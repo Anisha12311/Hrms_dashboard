@@ -3,12 +3,13 @@ import React,{useState} from 'react';
 
 import { BiErrorCircle } from 'react-icons/bi';
 import Linked from '../../asserts/icons/linked.png';
+import ExitFormEmployee from '../ExitFormEmployee/ExitFormEmployee';
 
 import OfferLetter from '../OfferLetter/OfferLetter';
 
 export default function OnboardCandidateDetails() {
     
-    const [letter, setLetter] = useState()
+    const [exitForm, setExitForm] = useState()
         return (
         
               <div className = "candidate_dah1" >
@@ -204,9 +205,9 @@ export default function OnboardCandidateDetails() {
                                    <div className = "candi_automation">3 Year 8 Months</div>
                                   </div>
                                   <div className = "candi_cancel">Cancel</div>
-                                  <div className = "candi_Send" onClick = {() => setLetter(true)}>Send Offer Letter</div>
-                                          {letter&&(
-                                            <OfferLetter setLetter = {setLetter}></OfferLetter>)}
+                                  <div className = "candi_Send" onClick = {() => setExitForm(true)}>Send Exit Form</div>
+                                          {exitForm&&(
+                                            <ExitFormEmployee setExitForm = {setExitForm}></ExitFormEmployee>)}
                                             
                                           
                        </div>

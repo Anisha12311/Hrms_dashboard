@@ -13,15 +13,15 @@ export default function Onboard()  {
   const [sendMessage, setSendMessage] = useState(false);
 
     const handleSort = () => {
-        const dropdown = document.querySelector(".job-sort-batch-action");
+        const dropdown = document.querySelector(".job-sort-batch-action5");
         const batchArrow = document.querySelector(".job-sort-batch-arrow");
-        dropdown.classList.toggle("job-sort-batch-visible");
+        dropdown.classList.toggle("jobvisible1");
         batchArrow.classList.toggle("job-sort-batch-rotate");
       };
       const handleSortfilter = () => {
         const dropdown = document.querySelector(".job-sort-batch-action1");
         const batchArrow = document.querySelector(".job-sort-batch-arrow");
-        dropdown.classList.toggle("job-sort-batch-visible");
+        dropdown.classList.toggle("jobvisible");
         batchArrow.classList.toggle("job-sort-batch-rotate");
       };
     return (
@@ -86,8 +86,8 @@ export default function Onboard()  {
             <>
             <FaFilter style = {{color :"#2186F2"}}/>
             <span>Filter</span>
-              <ul className='job-sort-batch-action'>
-                <div className='job-sort-batch-action-square'>&nbsp;</div>
+              <ul className='job-sort-batch-action5'>
+                <div className='job-sort-batch-action5-square1'>&nbsp;</div>
                 
                 <li><div>All</div> </li>
                 <li><div>Mentors</div></li>

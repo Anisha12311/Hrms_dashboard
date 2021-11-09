@@ -29,7 +29,7 @@ const [priority , setPriority] = useState("")
             <div className="field">
         <h3>Subject</h3>
    
-            <div className="input-box-dropdown" style={{height:"3.4rem"}} onClick={()=>{
+            <div className="input-box-dropdown" style={{height:"4.4rem"}} onClick={()=>{
 
 const batchArrow = document.querySelector(".ticket-batch-arrow-subject");
 batchArrow.classList.toggle("ticket-batch-rotate");
@@ -55,7 +55,7 @@ dropdown.classList.toggle("ticket-batch-visible-subject");
                   </>
                 </span>
                 
-                <svg width="16" className="ticket-batch-arrow-priority" height="12" viewBox="0 0 492 492" fill="#2186F2">
+                <svg width="16" className="ticket-batch-arrow-subject" height="12" viewBox="0 0 492 492" fill="#2186F2">
 <path d="M484.13 124.99l-16.11-16.23a26.72 26.72 0 00-19.04-7.86c-7.2 0-13.96 2.79-19.03 7.86L246.1 292.6 62.06 108.55c-5.07-5.06-11.82-7.85-19.03-7.85s-13.97 2.79-19.04 7.85L7.87 124.68a26.94 26.94 0 000 38.06l219.14 219.93c5.06 5.06 11.81 8.63 19.08 8.63h.09c7.2 0 13.96-3.57 19.02-8.63l218.93-219.33A27.18 27.18 0 00492 144.1c0-7.2-2.8-14.06-7.87-19.12z"/>
 </svg>
             </div>
@@ -68,7 +68,7 @@ dropdown.classList.toggle("ticket-batch-visible-subject");
         <div className="field">
         <h3>Priority</h3>
    
-            <div className="input-box-dropdown" style={{height:"3.4rem",width:"24rem"}} onClick={()=>{
+            <div className="input-box-dropdown" style={{height:"4.4rem",width:"24rem"}} onClick={()=>{
 
 const batchArrow = document.querySelector(".ticket-batch-arrow-priority");
 batchArrow.classList.toggle("ticket-batch-rotate");
@@ -135,7 +135,7 @@ dropdown.classList.toggle("ticket-batch-visible-priority")
         <div className="field">
         <h3>File</h3>
    
-            <div className="input-box-dropdown" style={{height:"3.4rem",width:"24rem"}} onClick={()=>{
+            <div className="input-box-dropdown" style={{height:"4.4rem",width:"24rem"}} onClick={()=>{
 
 const batchArrow = document.querySelector(".ticket-batch-arrow-file");
 batchArrow.classList.toggle("ticket-batch-rotate");
@@ -160,7 +160,7 @@ dropdown.classList.toggle("ticket-batch-visible-file")
                   </>
                 </span>
 
-                <svg width="16" className="batch-arrow" height="12" viewBox="0 0 492 492" fill="#2186F2">
+                <svg width="16" className="ticket-batch-arrow-file" height="12" viewBox="0 0 492 492" fill="#2186F2">
 <path d="M484.13 124.99l-16.11-16.23a26.72 26.72 0 00-19.04-7.86c-7.2 0-13.96 2.79-19.03 7.86L246.1 292.6 62.06 108.55c-5.07-5.06-11.82-7.85-19.03-7.85s-13.97 2.79-19.04 7.85L7.87 124.68a26.94 26.94 0 000 38.06l219.14 219.93c5.06 5.06 11.81 8.63 19.08 8.63h.09c7.2 0 13.96-3.57 19.02-8.63l218.93-219.33A27.18 27.18 0 00492 144.1c0-7.2-2.8-14.06-7.87-19.12z"/>
 </svg>
            
@@ -175,9 +175,9 @@ dropdown.classList.toggle("ticket-batch-visible-file")
         <div className="field">
         <h3>Signature</h3>
    
-            <div className="input-box-dropdown" style={{height:"3.4rem",width:"24rem"}} onClick={()=>{
+            <div className="input-box-dropdown" style={{height:"4.4rem",width:"24rem"}} onClick={()=>{
 
-const batchArrow = document.querySelector(".ticket-batch-arrow-sign");
+const batchArrow = document.querySelector(".ticket-batch-arrow-priority");
 batchArrow.classList.toggle("ticket-batch-rotate");
 const dropdown = document.querySelector(".ticket-batch-action-sign");
         

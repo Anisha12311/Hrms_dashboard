@@ -15,6 +15,8 @@ const Sidebar = ({ setHeading }) => {
     setActive("Home")
     console.log("job Listing from sidebar ")
   }
+
+  
    return (
 
     
@@ -204,7 +206,7 @@ const Sidebar = ({ setHeading }) => {
               </Link>
 
 
-
+              <Link to="/">
            <li 
                className={active==="logout"?"activeTab":""} 
                onClick={()=>{
@@ -224,7 +226,7 @@ const Sidebar = ({ setHeading }) => {
               <span>Logout</span>
             </li>
             
-
+            </Link>
       </ul>
     </nav>
   );

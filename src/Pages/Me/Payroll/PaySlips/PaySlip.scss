@@ -1,0 +1,36 @@
+.pdf{
+    &-box{
+        margin-top: 3.5rem;
+        // border: 1px solid black;
+        display: inline-block;
+        height: 35rem;
+        width: 40rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        background: #fff;
+        
+    }
+    &-page{
+        height: 18rem;
+        width: 30rem;
+        .react-pdf__Page__canvas{
+            height: 18rem!important;
+            width: 27rem!important;
+        }
+    }
+    &-bottom{
+        display: flex;
+        justify-content: space-between;
+        &-left{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            img{
+                display: inline-block;
+                height: 3.5rem;
+            }
+        }
+    }
+}
+
+

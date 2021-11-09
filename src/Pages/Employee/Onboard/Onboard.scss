@@ -6,7 +6,7 @@
     position: absolute;
     left: 78%;
     top: 163px;
-    z-index: 1;
+   
     background: #FFFFFF;
     border: 1px solid #EBE9E9;
     box-sizing: border-box;
@@ -28,7 +28,7 @@
         height : 75rem;
         color : black;
         visibility: visible;
-     
+        
         opacity: 1;
       
         width: 37rem;
@@ -99,21 +99,85 @@
         }
       }
       
+
+      .job-sort-batch-action5 {
+      
+      
+        &-square1 {
+          width: 2rem;
+          height: 2rem;
+          position: absolute;
+          background-color: #fff;
+          top: -0.9rem;
+          left:40%;
+    
+
+
+
+
+          
+    }
+      
+        position: absolute;
+        top: 70px;
+        opacity: 0;
+        visibility: hidden;
+        transition: height 0.3s, visibility 0.4s, opacity 0.4s;
+        height: 25.7rem;
+        left: 7rem;
+        width: 29rem;
+       
+      
+        box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 2rem;
+        list-style: none;
+      
+        li {
+          margin: 1rem 0;
+          padding: 0.5rem;
+          display: flex;
+          align-items: center;
+          transition: all 0.3s;
+         img {
+             width : 40px;
+             height : 40px;
+         }
+          &:hover {
+            background-color: rgb(233, 233, 233);
+            border-radius: 2rem;
+          }
+      
+          img {
+            margin-right: 1rem;
+          }
+        }
+      }
       
       .job-batch-rotate {
         transform: rotate(180deg);
       }  
     
-      .job-sort-batch-visible {
+      .jobvisible {
         visibility: visible;
-        height: 17.7rem;
+        height: 19.7rem;
         opacity: 1;
-        height: 15rem;
+      
         width: 37rem;
         top:70px;
         left: -3rem;
       }
-      
+     
+      .jobvisible1 {
+        visibility: visible;
+        height: 25.7rem;
+            opacity: 1;
+            width: 29rem;
+            top: 70px;
+            left: 7rem;
+            z-index: 1;
+      }
       .job-sort-batch-arrow {
         transition: all 0.2s;
         margin-top: 20px;

@@ -1,4 +1,4 @@
-.contain_email_box{
+.contain_email_box2{
     position: absolute;
     width: 1304px;
     height: 1150px;
@@ -9,7 +9,7 @@ background: #FFFFFF;
 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
 border-radius: 20px;
 }
-.contain_email_box1{
+.contain_email_box3{
 position: absolute;
 width: 1304px;
 
@@ -22,10 +22,10 @@ border-radius: 14px 14px 0px 0px;
 
 
 }
-.contain_email_box1{
+.contain_email_box3{
     display : flex;
 }
-.contain_email_box1 h3{
+.contain_email_box3 h3{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -37,7 +37,7 @@ border-radius: 14px 14px 0px 0px;
    
     
 }
-.contain_email_box1 img{
+.contain_email_box3 img{
     margin-left : 1000px;
   margin-top: 20px;
 }
@@ -54,7 +54,7 @@ border-radius: 14px 14px 0px 0px;
 }
 .Popup_email{
 position: absolute;
-width: 437px;
+
 height: 30px;
 margin-left: -40px;
 margin-top: 40px;

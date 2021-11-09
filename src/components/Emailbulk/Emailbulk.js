@@ -16,8 +16,8 @@ import send from '../../asserts/icons/send.png'
 export default function Emailbulk({setEmailBulk}) {
     return (
         <div className = "popup_container">
-        <div className = "contain_email_box">
-            <div className = "contain_email_box1">
+        <div className = "contain_email_box2">
+            <div className = "contain_email_box3">
                <h3> Bulk E-mail</h3>
                <img src = {close} alt = ""/>
             </div>

@@ -175,13 +175,13 @@ export default function CurrentJoined() {
                   </div>
                   <div className="footer-right">  
   
-                      <button className="btn1 btn1-w btn-inactive">{`<< Previous`}</button>
+                      <button className="btn btn1-w btn-inactive">{`<< Previous`}</button>
                       
-                      <button  className="btn1 btn-inactive pages">1</button>
-                      <button  className="btn1  btn-inactive pages">2</button>
-                      <button  className="btn1  btn-inactive pages">3</button>
+                      <button  className="btn btn-inactive pages">1</button>
+                      <button  className="btn  btn-inactive pages">2</button>
+                      <button  className="btn  btn-inactive pages">3</button>
                       
-                      <button className="btn1 btn1-w btn-inactive">{`Next >>`}</button>
+                      <button className="btn btn1-w btn-inactive">{`Next >>`}</button>
                   </div>
               </div>
         </div>

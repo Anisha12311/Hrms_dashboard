@@ -8,47 +8,53 @@ import Shortlisted from './Shortlisted/ShortlistContent';
 import SendMessage from '../../../components/SendMessage/SendMessage';
 export default function Shortlist() {
 
-
-  const [emailBulk, setEmailBulk] = useState(false);
+  const [emailBulk1, setEmailBulk1] = useState(false);
   const [sendMessage, setSendMessage] = useState(false);
+
+ 
+  
          
-    const handleSort = () => {
-        const dropdown = document.querySelector(".job-sort-batch-action");
-        const batchArrow = document.querySelector(".job-sort-batch-arrow");
-                   
-        dropdown.classList.toggle("job-sort-batch-visible");
-        batchArrow.classList.toggle("job-sort-batch-rotate");
-      };
+  const handleSortfilter = () => {
+    const dropdown = document.querySelector(".job-sort-batch-action1");
+    const batchArrow = document.querySelector(".job-sort-batch-arrow");
+    dropdown.classList.toggle("jobvisible");
+    batchArrow.classList.toggle("job-sort-batch-rotate");
+  };
     return (
         <div>
             
             <div className="listings-bar-right-filter">
               
-            
-       
-                <button onClick={handleSort} className='btns btn-white'>
+           <button onClick={handleSortfilter} className='btns btn-white'>
             <span className='job-sort-batch-action-rel'>
               <>
             
               <span>Batch Actions</span>
-                <ul className='job-sort-batch-action'>
-                  <div className='job-sort-batch-action-square'>&nbsp;</div>
+                <ul className='job-sort-batch-action1'>
+                  <div className='job-sort-batch-action1-square'>&nbsp;</div>
                   
-                  <li>
+                  <li >
              <img src = {message} alt = ""/>
-                    <span>Send Bulk Messages</span>
+                    <span onClick = {()=>setSendMessage(true)}>Send Bulk Messages</span>
+                    {sendMessage&&(
+             <SendMessage setSendMessage = {setSendMessage}></SendMessage>
+           )}
                   </li>
               
-    
+                  
                   <li>
              <img src = {email} alt = ""/>
                  
-                    <span>Send Bulk E-mails</span>
+                    <span onClick = {()=>setEmailBulk1(true)}>Send Bulk E-mails</span>
+                    {emailBulk1&&(
+             <Emailbulk setEmailBulk = {setEmailBulk1}></Emailbulk>
+           )}
                   </li>
-    
+               
               
-    
+                  
                 </ul>
+               
               </>
             </span>
     
@@ -64,6 +70,7 @@ export default function Shortlist() {
           </button>
          
             </div> 
+
 
 
 

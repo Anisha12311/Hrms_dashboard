@@ -420,9 +420,9 @@ export default function OnboardQuickReport() {
 
              <button className="btn btn-w btn-inactive">{`<< Previous`}</button>
              
-             <button className="btn1  btn-inactive pages">1</button>
-             <button className="btn1  btn-inactive pages">2</button>
-             <button  className="btn1  btn-inactive pages">3</button>
+             <button className="btn  btn-inactive pages">1</button>
+             <button className="btn  btn-inactive pages">2</button>
+             <button  className="btn  btn-inactive pages">3</button>
           
              
              <button className="btn btn-w btn-inactive">{`Next >>`}</button>

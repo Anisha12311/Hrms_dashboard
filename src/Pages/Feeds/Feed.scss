@@ -1,0 +1,50 @@
+.notification{
+    &-container{
+        background-color: #fff;
+        height: 91vh;
+        width: 100%;
+        margin-top: 5rem;
+        border-radius: 2rem;
+        overflow: scroll;
+        zoom: 84%;
+        margin-left: 40rem;
+
+    }
+    &-container::-webkit-scrollbar{
+        display: none;
+    }
+    &-time{
+        margin: 3rem;
+        font-size: 2.3rem;
+        font-weight: 800;
+        display: inline-block;
+        span{
+            font-weight:100 ; 
+            letter-spacing: 1rem;
+            color:#878787;
+        }
+    }
+    &-card{
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+        font-size: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        h4{
+            color: gray;
+        }
+    }
+    img{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .notification-texBox{
+        font-weight: 500;
+        p{
+        
+            color: gray;
+        }
+    }
+
+}

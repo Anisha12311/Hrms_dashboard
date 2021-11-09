@@ -1,0 +1,305 @@
+.email-popupml1{
+    &-containerml1 {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.637);
+        z-index: 2000;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+      }
+      background-color: #fff;
+      width: 70vw;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 1.2rem;
+      overflow: hidden;
+input{
+    border: 1px solid black;
+}
+.requestertik{
+    padding:3rem;
+}
+
+
+    }
+    .leftleave{
+        padding: 3rem;
+    display: inline-block;
+        height: 62vh;
+    
+        min-width: 100%;
+        top:0;
+        // background-color: red;
+        .timeatworkleave{
+        padding-bottom: 2.3rem;
+        padding-top: 1rem;
+            text-decoration: underline;
+        }
+        .detailsleave{
+            display: flex;
+            // padding-left:3rem;
+        }
+        .idleave{
+            padding-right: 4rem;
+        }
+        .nameleave{
+            padding-right: 4rem;
+            display: flex;
+        }
+        .departmentleave{
+            display: flex;
+            padding-right: 4rem;
+        }
+        .gridBoxleave{
+       
+            position:absolute;
+            // padding-right: 20%;
+            max-width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap !important;
+            top:25%;
+        }
+        .sampleCardleave{
+            position: relative;
+        display: inline-block;
+            padding: 2rem;
+            min-width: 19rem;
+            background-color: white;
+            border-radius: 1.2rem;
+            min-height: 3rem;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+            margin: 1rem;
+        }
+    }
+
+
+
+.email-popupmt2{
+    &-containermt2 {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.637);
+        z-index: 2000;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+      }
+      .test{
+          position: relative;
+        
+      }
+      table, td{
+         text-align: center;
+         vertical-align: middle;
+      }
+      .tabCnt{
+          justify-content: center;
+          display: block;
+          position: relative;
+          justify-content: center;
+          padding: 2rem;
+      }
+    
+     table, td{
+          border-radius: 2rem;
+          border: 1px solid black;
+      }
+      td{
+          padding: 1rem;
+      }
+      .leaveTable{
+          padding: 2rem;
+      }
+      table{
+        border-collapse: collapse;
+      }
+      .leaveHead{
+          text-decoration: underline;
+      }
+      .leaveContent{
+          position: relative;
+          padding: 2rem;
+          display: inline-block;
+      }
+           
+  background-color: #fff;
+  width: 35vw;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1.2rem;
+  overflow: hidden;
+
+}
+
+
+.email-popupmt{
+    &-containermt {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.637);
+        z-index: 2000;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+      }
+      
+  background-color: #fff;
+  width: 67vw;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1.2rem;
+  overflow: hidden;
+
+//   &-top {
+//     background-color: var(--primary);
+//     display: flex;
+//     padding: 1.5rem 1.2rem;
+//     justify-content: space-between;
+//     align-items: center;
+//     color: #fff;
+//     height: 7rem;
+// }
+}
+.left{
+    padding: 3rem;
+display: inline-block;
+    height: 80vh;
+
+    min-width: 90%;
+    top:0;
+    // background-color: red;
+    .timeatwork{
+    padding-bottom: 2.3rem;
+    padding-top: 1rem;
+        text-decoration: underline;
+    }
+    .details{
+        display: flex;
+        // padding-left:3rem;
+    }
+    .id{
+        padding-right: 4rem;
+    }
+    .name{
+        padding-right: 4rem;
+        display: flex;
+    }
+    .department{
+        display: flex;
+        padding-right: 4rem;
+    }
+    .gridBox{
+   
+        position:absolute;
+        // padding-right: 20%;
+        max-width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap !important;
+        top:25%;
+    }
+    .sampleCard{
+        position: relative;
+    display: inline-block;
+        padding: 2rem;
+        min-width: 20rem;
+        background-color: white;
+        border-radius: 1.2rem;
+        min-height: 4rem;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+        margin: 1.5rem;
+    }
+}
+.right{
+
+display: inline-block;
+// padding-right: 2rem;
+position: absolute;
+  width: 15%;
+  top:35%;
+transform: translate(-50%,-50%);
+  min-height: 70vh;
+  
+    min-height: 20rem;
+    // background-color: green;
+
+    // border: 1px solid red;
+}
+.myDivAttendence{
+    position: relative;
+    
+}
+.Myfilter{
+    position: absolute;
+    display: inline-block;
+justify-content: center;
+align-content: left;
+
+padding:2rem;
+top:2%;
+max-width: 12rem;
+padding-bottom: 1rem;
+padding-top: 1rem;
+border-radius: 2rem;
+box-sizing: border-box;
+   background-color:  white;
+   border: 1px solid  rgba(0, 0, 0, 0.16);;
+}
+input[value="0000-00-00"]::-webkit-datetime-edit {
+    color: transparent; 
+}
+
+.bottom{
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+    display: block;
+//   justify-content: right;
+//   transform: translate(-50%,50%);
+    // padding: 3rem;
+    // bottom: 50%;
+padding-bottom: 2%;
+    min-height: 2rem;
+    min-width: 20rem;
+    // background:red;
+}
+ .approve{
+    // position: absolurte;
+    position: relative;
+    display: inline-block;
+left: 43%;
+
+    padding: 1rem;
+    background-color: white;
+    color:black;
+    border-radius: 2rem;
+    border: 1px solid black;
+    margin-right: 1rem;
+    
+    // position: absolute;
+}
+.decline{
+    display: inline-block;
+    padding: 1rem;
+    border:1px solid dodgerblue;
+    border-radius: 2rem;
+    color: white;
+    background-color: dodgerblue;
+    position: relative;
+    left: 70%;
+
+}
