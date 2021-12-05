@@ -38,9 +38,9 @@ function App() {
     <div className="App">
     <BrowserRouter>
          <Switch>
-         <Route exact path='/' component={Auth} />
-        <Route exact path='/forgot-password' component={ForgotPassword} />
-        <Route exact path='/reset-password/:id' component={ResetPassword} />
+//          <Route exact path='/' component={Auth} />
+//         <Route exact path='/forgot-password' component={ForgotPassword} />
+//         <Route exact path='/reset-password/:id' component={ResetPassword} />
          <div >
         
           <Sidebar setHeading={setHeading} />
@@ -48,7 +48,7 @@ function App() {
            
         
               <NavBar heading={heading} />
-           <Route exact path = "/dashboard" render = {() => <Dashboard/>}/>
+           <Route exact path = "/" render = {() => <Dashboard/>}/>
                <Route exact path = "/employees" component = {Employees}/>
                <Route exact path = "/performance" component = {Performance}/>
                <Route exact path = "/me" component = { Me }/>
